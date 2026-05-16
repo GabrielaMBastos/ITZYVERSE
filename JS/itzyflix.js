@@ -89,7 +89,7 @@ const buttons = document.querySelectorAll(".cnav");
 // ================= CONFIG =================
 const LIMIT = 12;
 const SCROLL_AMOUNT = 800;
-const FALLBACK_IMG = "/assets/itzyflix.png";
+const FALLBACK_IMG = "../assets/itzyflix.png";
 
 // ================= CATEGORY LABELS =================
 const categoryNames = {

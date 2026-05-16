@@ -422,7 +422,7 @@ document.getElementById("drawerOverlay")?.addEventListener("click", closeDrawer)
 /* =========================================
    FETCH
 ========================================= */
-fetch("/data/discography.json")
+fetch("../data/discography.json")
   .then((res) => res.json())
   .then((data) => {
     releases = data.map((r) => {

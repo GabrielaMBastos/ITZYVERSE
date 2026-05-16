@@ -5,7 +5,7 @@ const members = {
     birth:    'May 26, 2000 · Korean',
     photoBg:  '#1a0812',
     photoTxt: '#3a0a1e',
-    photoSrc: '/assets/members/yeji2.jpg',
+    photoSrc: '../assets/members/yeji2.jpg',
     instagram: 'https://www.instagram.com/yezyizhere?utm_source=ig_web_button_share_sheet',
     youtube:   '',
     spotify:   'https://open.spotify.com/artist/3skli1w2n0nOZ4qkDbvV2m?si=40fttXVhSLezsjNMVAMiCw',
@@ -28,7 +28,7 @@ const members = {
     birth:    'July 21, 2000 · Korean',
     photoBg:  '#0a121a',
     photoTxt: '#0a1f2e',
-    photoSrc: '/assets/members/lia2.jpg',
+    photoSrc: '../assets/members/lia2.jpg',
     instagram: 'https://www.instagram.com/lia_loves___/',
     youtube:   'https://youtube.com/@liachoi_0721?si=VAJr7KIS4AK4aW3b',
     spotify:   'https://open.spotify.com/artist/19Io533x1pKQu6ZuisGek5?si=nBTcPI2NSE6E4E_9Mhe6xQ',
@@ -49,7 +49,7 @@ const members = {
     birth:    'April 17, 2001 · Korean',
     photoBg:  '#130a1a',
     photoTxt: '#200a30',
-    photoSrc: '/assets/members/ryujin2.jpg',
+    photoSrc: '../assets/members/ryujin2.jpg',
     instagram: 'https://www.instagram.com/iamfinethankyouandryu/',
     youtube:   '',
     spotify:   '',
@@ -72,7 +72,7 @@ const members = {
     birth:    'June 5, 2001 · Korean',
     photoBg:  '#0a1a0f',
     photoTxt: '#0a2a14',
-    photoSrc: '/assets/members/chaery2.jpg',
+    photoSrc: '../assets/members/chaery2.jpg',
     instagram: 'https://www.instagram.com/chaerrry0/',
     youtube:   '',
     spotify:   'https://open.spotify.com/artist/73nPXEFs9tGCNmSOcqFHPs?si=NNJ8PtRHSROjPP-y_l77kg',
@@ -94,7 +94,7 @@ const members = {
     birth:    'December 9, 2003 · Korean',
     photoBg:  '#1a1200',
     photoTxt: '#2a1c00',
-    photoSrc: '/assets/members/yuna2.jpg',
+    photoSrc: '../assets/members/yuna2.jpg',
     instagram: 'https://www.instagram.com/igotyuandme/',
     youtube:   'https://youtube.com/@yunani_bit2na?si=ycpEjVb-SMBclkR7',
     spotify:   'https://open.spotify.com/artist/6FsEIvsTuqjpejg2jDbYdv?si=fXISXhLLRu2NwqVCVyrprQ',
@@ -205,7 +205,7 @@ function buildCarousel() {
 
   memberKeys.forEach((id) => {
     const m = members[id];
-    const cardPhoto = `/assets/members/${id === 'chaeryeong' ? 'chaery' : id}1.jpg`;
+    const cardPhoto = `../assets/members/${id === 'chaeryeong' ? 'chaery' : id}1.jpg`;
     const slide = document.createElement('div');
     slide.className = 'carousel-slide';
     slide.dataset.id = id;
@@ -357,7 +357,7 @@ function init() {
     document.getElementById('membersGrid').innerHTML = `
       <div class="member-col" data-id="yeji" onclick="selectMember('yeji')">
         <div class="member-photo">
-          <div class="photo-placeholder"><img src="/assets/members/yeji1.jpg" alt="Yeji"></div>
+          <div class="photo-placeholder"><img src="../assets/members/yeji1.jpg" alt="Yeji"></div>
           <div class="member-photo-overlay"></div>
           <div class="member-photo-label">
             <div class="member-name">YEJI</div>
@@ -367,7 +367,7 @@ function init() {
       </div>
       <div class="member-col" data-id="lia" onclick="selectMember('lia')">
         <div class="member-photo">
-          <div class="photo-placeholder"><img src="/assets/members/lia1.jpg" alt="Lia"></div>
+          <div class="photo-placeholder"><img src="../assets/members/lia1.jpg" alt="Lia"></div>
           <div class="member-photo-overlay"></div>
           <div class="member-photo-label">
             <div class="member-name">LIA</div>
@@ -377,7 +377,7 @@ function init() {
       </div>
       <div class="member-col" data-id="ryujin" onclick="selectMember('ryujin')">
         <div class="member-photo">
-          <div class="photo-placeholder"><img src="/assets/members/ryujin1.jpg" alt="Ryujin"></div>
+          <div class="photo-placeholder"><img src="../assets/members/ryujin1.jpg" alt="Ryujin"></div>
           <div class="member-photo-overlay"></div>
           <div class="member-photo-label">
             <div class="member-name">RYUJIN</div>
@@ -387,7 +387,7 @@ function init() {
       </div>
       <div class="member-col" data-id="chaeryeong" onclick="selectMember('chaeryeong')">
         <div class="member-photo">
-          <div class="photo-placeholder"><img src="/assets/members/chaery1.jpg" alt="Chaeryeong"></div>
+          <div class="photo-placeholder"><img src="../assets/members/chaery1.jpg" alt="Chaeryeong"></div>
           <div class="member-photo-overlay"></div>
           <div class="member-photo-label">
             <div class="member-name">CHAERYEONG</div>
@@ -397,7 +397,7 @@ function init() {
       </div>
       <div class="member-col" data-id="yuna" onclick="selectMember('yuna')">
         <div class="member-photo">
-          <div class="photo-placeholder"><img src="/assets/members/yuna1.jpg" alt="Yuna"></div>
+          <div class="photo-placeholder"><img src="../assets/members/yuna1.jpg" alt="Yuna"></div>
           <div class="member-photo-overlay"></div>
           <div class="member-photo-label">
             <div class="member-name">YUNA</div>

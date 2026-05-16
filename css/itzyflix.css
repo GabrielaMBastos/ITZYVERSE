@@ -74,7 +74,7 @@ body {
   padding: 40px;
   background:
     linear-gradient(180deg, rgba(13, 13, 13, 0.5), rgba(13, 13, 13, 1)),
-    url("/assets/itzyflix.png") center/cover no-repeat;
+    url("../assets/itzyflix.png") center/cover no-repeat;
 }
 .page-title {
   font-size: 60px;
