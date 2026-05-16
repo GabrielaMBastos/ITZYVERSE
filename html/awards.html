@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZYVERSE - Awards</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="/css/awarsds.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+    <nav class="nav">
+      <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
+
+          <div class="nav-links">
+              <a href="/index.html">HOME</a>
+              <a href="/html/members.html">MEMBERS</a>
+              <a href="/html/discography.html" >DISCOGRAPHY</a>
+              <a href="/html/awards.html" class="active" >AWARDS</a>
+              <a href="/html/itzyflix.html">ITZYFLIX</a>
+      </div>
+
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" role="navigation">
+      <a href="/index.html">HOME</a>
+      <a href="/html/members.html">MEMBERS</a>
+      <a href="/html/discography.html">DISCOGRAPHY</a>
+      <a href="/html/awards.html" class="active">AWARDS</a>
+      <a href="/html/itzyflix.html">ITZYFLIX</a>
+    </div>
+
+  <main class="page-main">
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+      <div class="eyebrow">ACHIEVEMENTS</div>
+      <div class="page-title">AWARDS &amp; <span>WINS</span></div>
+      <div class="total-badge">
+        <i class="ti ti-trophy" aria-hidden="true"></i>
+        <span id="totalCount">88+</span> TOTAL AWARDS
+      </div>
+    </div>
+
+    <!-- MAIN TABS -->
+    <div class="main-tabs">
+      <button class="mtab active" data-tab="group">GROUP AWARDS</button>
+      <button class="mtab" data-tab="shows">MUSIC SHOW WINS</button>
+      <button class="mtab" data-tab="solo">SOLO AWARDS</button>
+    </div>
+
+    <!-- ── GROUP AWARDS TAB ── -->
+    <!-- ── GROUP AWARDS TAB ── -->
+    <div class="tab-content visible" id="tab-group">
+      <select class="year-filter-select" id="yearFilterSelect"></select>
+      <div class="year-filter" id="yearFilter"></div>
+      <div id="groupGrid"></div>
+    </div>
+
+    <!-- ── MUSIC SHOW WINS TAB ── -->
+    <div class="tab-content" id="tab-shows">
+      <div class="show-summary">
+        <div class="show-total" id="showTotal">—</div>
+        <div class="show-total-label">total music show wins</div>
+      </div>
+      <div class="wins-grid" id="winsGrid">
+        <!-- Cards gerados pelo JS -->
+      </div>
+    </div>
+
+    <!-- ── SOLO AWARDS TAB ── -->
+    <div class="tab-content" id="tab-solo">
+      <div class="solo-tabs" id="soloTabs">
+        <!-- Tabs geradas pelo JS -->
+      </div>
+      <div id="soloGrid">
+        <!-- Cards gerados pelo JS -->
+      </div>
+    </div>
+  </main>
+
+  <div class="follow-row">
+        <div class="follow-left">
+          <strong>FOLLOW ITZY</strong>
+          Follow the group on their official social media accounts!
+        </div>
+        <div class="follow-links">
+          <a class="social-link" href="https://www.instagram.com/itzy.all.in.us/"
+            ><i
+              class="ti ti-brand-instagram"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Instagram</a
+          >
+          <a
+            class="social-link"
+            href="https://youtube.com/@itzy?si=WghgAxkcVymBr_v8"
+            ><i
+              class="ti ti-brand-youtube"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            YouTube</a
+          >
+          <a class="social-link" href="https://x.com/ITZYofficial?s=20"
+            ><i
+              class="ti ti-brand-twitter"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Twitter</a
+          >
+          <a
+            class="social-link"
+            href="https://www.tiktok.com/@itzyofficial?is_from_webapp=1&sender_device=pc"
+            ><i
+              class="ti ti-brand-tiktok"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            TikTok</a
+          >
+          <a
+            class="social-link"
+            href="https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3?si=TDrB_Y1zQQqx-21_RjkGkA"
+            ><i
+              class="ti ti-brand-tiktok"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Spotify</a
+          >
+        </div>
+      </div>
+
+  <footer class="flix-footer">
+    <p>
+      Made by 
+      <a href="https://x.com/ltzyme" target="_blank">@ltzyme</a> · 
+      All media belongs to their respective owners
+    </p>
+      </footer>
+
+  <script src="../js/awards.js"></script>
+</body>
+</html>

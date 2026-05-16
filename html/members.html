@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZYHUB - Members</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital@1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="/css/members.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
+
+        <div class="nav-links">
+            <a href="/index.html">HOME</a>
+            <a href="/html/members.html" class="active">MEMBERS</a>
+            <a href="/html/discography.html">DISCOGRAPHY</a>
+            <a href="/html/awards.html">AWARDS</a>
+            <a href="/html/itzyflix.html">ITZYFLIX</a>
+    </div>
+
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" role="navigation">
+    <a href="/index.html">HOME</a>
+    <a href="/html/members.html" class="active">MEMBERS</a>
+    <a href="/html/discography.html">DISCOGRAPHY</a>
+    <a href="/html/awards.html">AWARDS</a>
+    <a href="/html/itzyflix.html">ITZYFLIX</a>
+  </div>
+
+  <main class="page-main">
+
+    <div class="page-header">
+      <div>
+        <div class="eyebrow">ITZY MEMBERS</div>
+        <div class="page-title">MEET THE <span>MEMBERS</span></div>
+        <div class="page-sub">5 members · Debuted Feb 12, 2019 · JYP Entertainment</div>
+      </div>
+    </div>
+
+    <div class="members-grid" id="membersGrid">
+
+      <div class="member-col" data-id="yeji" onclick="selectMember('yeji')">
+        <div class="member-photo">
+    
+          <div class="photo-placeholder"><img src="/assets/members/yeji1.jpg"></div>
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-label">
+            <div class="member-name">YEJI</div>
+            <div class="member-hangul">예지</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-col" data-id="lia" onclick="selectMember('lia')">
+        <div class="member-photo">
+          <div class="photo-placeholder"><img src="/assets/members/lia1.jpg"></div>
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-label">
+            <div class="member-name">LIA</div>
+            <div class="member-hangul">리아</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-col" data-id="ryujin" onclick="selectMember('ryujin')">
+        <div class="member-photo">
+          <div class="photo-placeholder"><img src="/assets/members/ryujin1.jpg"></div>
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-label">
+            <div class="member-name">RYUJIN</div>
+            <div class="member-hangul">류진</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-col" data-id="chaeryeong" onclick="selectMember('chaeryeong')">
+        <div class="member-photo">
+          <div class="photo-placeholder"><img src="/assets/members/chaery1.jpg"></div>
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-label">
+            <div class="member-name">CHAERYEONG</div>
+            <div class="member-hangul">채령</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="member-col" data-id="yuna" onclick="selectMember('yuna')">
+        <div class="member-photo">
+          <div class="photo-placeholder"><img src="/assets/members/yuna1.jpg"></div>
+          <div class="member-photo-overlay"></div>
+          <div class="member-photo-label">
+            <div class="member-name">YUNA</div>
+            <div class="member-hangul">유나</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="detail-panel" id="detailPanel">
+      <div class="detail-left">
+        <div class="detail-photo-box" id="detailPhoto">
+          <span id="detailInitials"></span>
+        </div>
+      </div>
+      <div class="detail-right">
+        <div class="detail-header">
+          <div id="detailStage" class="detail-stage"></div>
+          <div id="detailHangul" class="detail-hangul"></div>
+          <div id="detailBirth" class="detail-birth"></div>
+        </div>
+        <div id="detailRoles" class="roles-row"></div>
+        <p id="detailBio" class="detail-bio"></p>
+        <div id="detailGrid" class="info-grid"></div>
+          <div id="detailSocials"></div>
+      </div>
+    </div>
+
+    <div class="select-hint" id="selectHint">
+      <i class="ti ti-arrow-up" aria-hidden="true"></i>
+      Click on a member above to see their full profile
+    </div>
+  </main>
+
+  <div class="follow-row">
+        <div class="follow-left">
+        <strong>FOLLOW ITZY</strong>
+        Follow the group on their official social media accounts!
+        </div>
+        <div class="follow-links">
+        <a class="social-link" href="https://www.instagram.com/itzy.all.in.us/"><i class="ti ti-brand-instagram" style="font-size:20px" aria-hidden="true"></i> Instagram</a>
+        <a class="social-link" href="https://youtube.com/@itzy?si=WghgAxkcVymBr_v8"><i class="ti ti-brand-youtube" style="font-size:20px" aria-hidden="true"></i> YouTube</a>
+        <a class="social-link" href="https://x.com/ITZYofficial?s=20"><i class="ti ti-brand-twitter" style="font-size:20px" aria-hidden="true"></i> Twitter</a>
+        <a class="social-link" href="https://www.tiktok.com/@itzyofficial?is_from_webapp=1&sender_device=pc"><i class="ti ti-brand-tiktok" style="font-size:20px" aria-hidden="true"></i> TikTok</a>
+        <a class="social-link" href="https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3?si=TDrB_Y1zQQqx-21_RjkGkA"><i class="ti ti-brand-spotify" style="font-size:20px" aria-hidden="true"></i> Spotify</a>
+        </div>
+  </div>
+
+  <footer class="flix-footer">
+    <p>
+      Made by 
+      <a href="https://x.com/ltzyme" target="_blank">@ltzyme</a> · 
+      All media belongs to their respective owners
+    </p>
+      </footer>
+
+  <script src="/JS/members.js"></script>
+</body>
+</html>

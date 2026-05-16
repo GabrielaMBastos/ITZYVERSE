@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITZYVERSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <!-- ===== NAV ===== -->
+      <nav class="nav">
+        <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
+
+        <!-- Links desktop -->
+        <div class="nav-links">
+          <a href="/index.html" class="active">HOME</a>
+          <a href="/html/members.html">MEMBERS</a>
+          <a href="/html/discography.html">DISCOGRAPHY</a>
+          <a href="/html/awards.html">AWARDS</a>
+          <a href="/html/itzyflix.html">ITZYFLIX</a>
+        </div>
+
+        <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+      </nav>
+
+      
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="navigation">
+    <a href="/index.html">HOME</a>
+    <a href="/html/members.html">MEMBERS</a>
+    <a href="/html/discography.html">DISCOGRAPHY</a>
+    <a href="/html/awards.html">AWARDS</a>
+    <a href="/html/itzyflix.html" class="active">ITZYFLIX</a>
+  </div>
+      
+      <main class="page-main">
+        <!-- ===== HERO ===== -->
+        <div class="hero">
+          <picture>
+            <source srcset="assets/itzy1.jpg" media="(max-width: 768px)" />
+            <img src="assets/itzy2.jpg" alt="ITZY group photo" />
+          </picture>
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <div class="hero-eyebrow">ITZY?</div>
+            <div class="hero-title">ITZY!</div>
+            <p class="hero-desc">
+              A girl group defined by ethereal visuals, dance anthems with
+              uplifting lyrics, powerful choreography, and an unforgettable stage
+              presence.
+            </p>
+          </div>
+        </div>
+
+        <!-- ===== LATEST STRIP ===== -->
+        <div class="latest-strip">
+          <div class="strip-left">
+            <div>
+              <div class="strip-label">Latest Release</div>
+              <div class="strip-title">MOTTO</div>
+              <div class="strip-date">2026.05.18</div>
+            </div>
+
+            <button
+              id="playBtn"
+              class="play-btn"
+              aria-label="Listen now"
+              onclick="toggleStreamLinks()"
+            >
+              <i class="fa-solid fa-play"></i>
+            </button>
+
+            <!-- Painel de streaming (expande ao clicar no play) -->
+            <div class="stream-panel" id="streamPanel">
+              <div class="stream-arrow">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+              <div class="stream-label">Listen on</div>
+              <div class="stream-btns">
+                <a
+                  id="linkYoutube"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  class="stream-btn yt"
+                >
+                  <i class="fa-brands fa-youtube"></i>
+                  <span>YouTube</span>
+                </a>
+                <a
+                  id="linkSpotify"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  class="stream-btn sp"
+                >
+                  <i class="fa-brands fa-spotify"></i>
+                  <span>Spotify</span>
+                </a>
+                <a
+                  id="linkAppleMusic"
+                  href="#"
+                  target="_blank"
+                  rel="noopener"
+                  class="stream-btn am"
+                >
+                  <i class="fa-brands fa-apple"></i>
+                  <span>Apple Music</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- ===== EXPLORE ===== -->
+        <div class="explore-section">
+          <div class="section-eyebrow">EXPLORE</div>
+          <div class="explore-grid">
+            <a href="/html/members.html" class="e-card">
+              <div class="e-thumb" style="background: #1a0a14">
+                <span class="e-thumb-label" style="color: #e83e8c">MEMBERS</span>
+              </div>
+              <div  class="e-card-body">
+                <div class="e-card-title">Members</div>
+                <div class="e-card-sub">Get to know the group</div>
+              </div>
+            </a>
+            <a href="/html/discography.html" class="e-card">
+              <div class="e-thumb" style="background: #0a0f1a">
+                <span class="e-thumb-label" style="color: #5b9bd5"
+                  >DISCOGRAPHY</span
+                >
+              </div>
+              <div class="e-card-body">
+                <div class="e-card-title">Discography</div>
+                <div class="e-card-sub">Albums, Singles &amp; more</div>
+              </div>
+            </a>
+            <a href="/html/itzyflix.html" class="e-card">
+              <div class="e-thumb" style="background: #18041f">
+                <span class="e-thumb-label" style="color: #a26db1">ITZYFLIX</span>
+              </div>
+              <div class="e-card-body">
+                <div class="e-card-title">ITZYFLIX</div>
+                <div class="e-card-sub">ITZY contents to watch</div>
+              </div>
+            </a>
+            <a href="/html/awards.html" class="e-card">
+              <div class="e-thumb" style="background: #1a1500">
+                <span class="e-thumb-label" style="color: #f0c040">AWARDS</span>
+              </div>
+              <div class="e-card-body">
+                <div class="e-card-title">Awards</div>
+                <div class="e-card-sub">Achievements &amp; Wins</div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- ===== STREAM BOTTOM SHEET (MOBILE) ===== -->
+      <div class="bottom-sheet" id="bottomSheet">
+        <div class="sheet-overlay" onclick="closeSheet()"></div>
+
+        <div class="sheet-content">
+          <div class="sheet-handle"></div>
+
+          <div class="sheet-title">Listen on</div>
+
+          <div class="sheet-links">
+            <a id="sheetYoutube" href="#" target="_blank" class="sheet-btn">
+              <i class="fa-brands fa-youtube"></i> YouTube
+            </a>
+            <a id="sheetSpotify" href="#" target="_blank" class="sheet-btn">
+              <i class="fa-brands fa-spotify"></i> Spotify
+            </a>
+            <a id="sheetApple" href="#" target="_blank" class="sheet-btn">
+              <i class="fa-brands fa-apple"></i> Apple Music
+            </a>
+          </div>
+        </div>
+      </div>
+      </main>
+
+      <!-- ===== FOLLOW ROW ===== -->
+      <div class="follow-row">
+        <div class="follow-left">
+          <strong>FOLLOW ITZY</strong>
+          Follow the group on their official social media accounts!
+        </div>
+        <div class="follow-links">
+          <a
+            class="social-link"
+            href="https://www.instagram.com/itzy.all.in.us/"
+            target="_blank"
+            rel="noopener"
+          >
+            <i
+              class="ti ti-brand-instagram"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Instagram
+          </a>
+          <a
+            class="social-link"
+            href="https://youtube.com/@itzy"
+            target="_blank"
+            rel="noopener"
+          >
+            <i
+              class="ti ti-brand-youtube"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            YouTube
+          </a>
+          <a
+            class="social-link"
+            href="https://x.com/ITZYofficial"
+            target="_blank"
+            rel="noopener"
+          >
+            <i
+              class="ti ti-brand-twitter"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Twitter
+          </a>
+          <a
+            class="social-link"
+            href="https://www.tiktok.com/@itzyofficial"
+            target="_blank"
+            rel="noopener"
+          >
+            <i
+              class="ti ti-brand-tiktok"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            TikTok
+          </a>
+          <a class="social-link" href="https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3" target="_blank" rel="noopener" aria-label="Spotify">
+            <i
+              class="ti ti-brand-spotify"
+              style="font-size: 20px"
+              aria-hidden="true"
+            ></i>
+            Spotify
+          </a>
+        </div>
+      </div>
+
+      <!-- ===== FOOTER ===== -->
+    <footer class="flix-footer">
+      <p>
+        Made by
+        <a href="https://x.com/ltzyme" target="_blank" rel="noopener"
+          >@ltzyme</a
+        >
+        · All media belongs to their respective owners
+      </p>
+    </footer>
+    
+
+    <script src="js/home.js"></script>
+    </script>
+  </body>
+</html>

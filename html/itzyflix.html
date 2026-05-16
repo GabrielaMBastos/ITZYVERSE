@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZYVERSE - ITZYFLIX</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="../css/itzyflix.css" />
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
+
+    <div class="nav-links">
+      <a href="../index.html">HOME</a>
+      <a href="members.html">MEMBERS</a>
+      <a href="discography.html">DISCOGRAPHY</a>
+      <a href="awards.html">AWARDS</a>
+      <a href="itzyflix.html" class="active">ITZYFLIX</a>
+    </div>
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="navigation">
+    <a href="../index.html">HOME</a>
+    <a href="members.html">MEMBERS</a>
+    <a href="discography.html">DISCOGRAPHY</a>
+    <a href="awards.html">AWARDS</a>
+    <a href="itzyflix.html" class="active">ITZYFLIX</a>
+  </div>
+
+  <main class="page-main">
+    <!-- HERO -->
+    <section class="flix-hero">
+      <div class="flix-hero-content">
+        <div class="page-title">ITZY<span>FLIX</span></div>
+        <p class="flix-hero-sub">All ITZY content in one place. Performances, concerts, variety shows and more.</p>
+      </div>
+    </section>
+
+    <!-- TOP CONTROLS (desktop cat-nav + search) -->
+    <div class="top-controls">
+      <div class="cat-nav">
+        <button class="cnav" data-section="home">Home</button>
+        <button class="cnav" data-section="thisIsItzy">This is ITZY</button>
+        <button class="cnav" data-section="performances">Performances</button>
+        <button class="cnav" data-section="covers">Covers & Live Music</button>
+        <button class="cnav" data-section="webContent">Variety Shows</button>
+        <button class="cnav" data-section="concerts">Concerts</button>
+        <button class="cnav" data-section="more">More</button>
+      </div>
+      <div class="search-wrapper">
+        <i class="ti ti-search"></i>
+        <input type="text" id="searchInput" placeholder="Search ITZY content..." />
+      </div>
+    </div>
+
+    <!-- MAIN -->
+    <main class="flix-main">
+      <div id="mainContent"></div>
+    </main>
+
+    <!-- MODAL -->
+    <div class="modal-overlay" id="modal">
+      <div class="modal-box">
+        <button class="modal-close" id="modalClose">
+          <i class="ti ti-x"></i>
+        </button>
+        <div class="modal-title" id="modalTitle"></div>
+        <div class="modal-sub">Choose where to watch:</div>
+        <ul class="modal-links" id="modalLinks"></ul>
+      </div>
+    </div>
+
+    <!-- BOTTOM TAB BAR (mobile only) -->
+  <nav class="bottom-tab-bar" id="bottomTabBar" aria-label="Category navigation">
+    <button class="tab-item active" data-section="home">
+      <i class="ti ti-home"></i>
+      <span>Home</span>
+    </button>
+    <button class="tab-item" data-section="thisIsItzy">
+      <i class="ti ti-star"></i>
+      <span>this is <br>ITZY</span>
+    </button>
+    <button class="tab-item" data-section="performances">
+      <i class="ti ti-music"></i>
+      <span>Perform.</span>
+    </button>
+    <button class="tab-item" data-section="covers">
+      <i class="ti ti-microphone"></i>
+      <span>covers & Live</span>
+    </button>
+    <button class="tab-item" data-section="webContent">
+      <i class="ti ti-device-tv"></i>
+      <span>Shows</span>
+    </button>
+    <button class="tab-item" data-section="concerts">
+      <i class="ti ti-ticket"></i>
+      <span>Concerts</span>
+    </button>
+    <button class="tab-item" data-section="more">
+      <i class="ti ti-dots"></i>
+      <span>More</span>
+    </button>
+  </nav>
+  </main>
+
+  <!-- FOLLOW ROW -->
+  <div class="follow-row">
+    <div class="follow-left">
+      <strong>FOLLOW ITZY</strong>
+      Follow the group on their official social media accounts!
+    </div>
+    <div class="follow-links">
+      <a class="social-link" href="https://www.instagram.com/itzy.all.in.us/" aria-label="Instagram">
+        <i class="ti ti-brand-instagram" style="font-size:20px" aria-hidden="true"></i> Instagram
+      </a>
+      <a class="social-link" href="https://youtube.com/@itzy" aria-label="YouTube">
+        <i class="ti ti-brand-youtube" style="font-size:20px" aria-hidden="true"></i> YouTube
+      </a>
+      <a class="social-link" href="https://x.com/ITZYofficial" aria-label="Twitter">
+        <i class="ti ti-brand-twitter" style="font-size:20px" aria-hidden="true"></i> Twitter
+      </a>
+      <a class="social-link" href="https://www.tiktok.com/@itzyofficial" aria-label="TikTok">
+        <i class="ti ti-brand-tiktok" style="font-size:20px" aria-hidden="true"></i> TikTok
+      </a>
+      <a class="social-link" href="https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3" aria-label="Spotify">
+        <i class="ti ti-brand-spotify" style="font-size:20px" aria-hidden="true"></i> Spotify
+      </a>
+    </div>
+  </div>
+
+  <footer class="flix-footer">
+    <p>Made by <a href="https://x.com/ltzyme" target="_blank">@ltzyme</a> · All media belongs to their respective owners</p>
+  </footer>
+
+
+  <script src="../js/itzyflix.js"></script>
+
+</body>
+</html>

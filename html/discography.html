@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ITZYVERSE - Discography</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/discography.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <nav class="nav">
+    <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
+
+    <div class="nav-links">
+      <a href="/index.html">HOME</a>
+      <a href="/html/members.html">MEMBERS</a>
+      <a href="/html/discography.html" class="active">DISCOGRAPHY</a>
+      <a href="/html/awards.html">AWARDS</a>
+      <a href="/html/itzyflix.html">ITZYFLIX</a>
+    </div>
+    <button class="nav-hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu" role="navigation">
+    <a href="/index.html">HOME</a>
+    <a href="/html/members.html">MEMBERS</a>
+    <a href="/html/discography.html" class="active">DISCOGRAPHY</a>
+    <a href="/html/awards.html">AWARDS</a>
+    <a href="/html/itzyflix.html">ITZYFLIX</a>
+  </div>
+
+<main class="page-main">
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <div class="eyebrow">MUSIC</div>
+    <div class="page-title">DISCO<span>GRAPHY</span></div>
+    <p class="page-sub">All releases from ITZY and its members</p>
+  </div>
+
+  <!-- FILTERS (desktop) -->
+  <div class="filter-section">
+    <div class="filter-label">ARTIST</div>
+    <div class="artist-tabs" id="artistTabs">
+      <button class="atab active" data-artist="all">ITZY</button>
+      <button class="atab" data-artist="yeji">YEJI</button>
+      <button class="atab" data-artist="lia">LIA</button>
+      <button class="atab" data-artist="ryujin">RYUJIN</button>
+      <button class="atab" data-artist="chaeryeong">CHAERYEONG</button>
+      <button class="atab" data-artist="yuna">YUNA</button>
+    </div>
+  </div>
+
+  <div class="filter-row">
+    <div class="filter-group">
+      <div class="filter-label">TYPE</div>
+      <div class="pill-group" id="catFilter">
+        <button class="pill active" data-cat="all">ALL</button>
+        <button class="pill" data-cat="album">ALBUM</button>
+        <button class="pill" data-cat="mini">MINI ALBUM</button>
+        <button class="pill" data-cat="single">SINGLE</button>
+        <button class="pill" data-cat="ost">OST</button>
+        <button class="pill" data-cat="collab">COLLAB</button>
+      </div>
+    </div>
+    <div class="filter-group">
+      <div class="filter-label">LANGUAGE</div>
+      <div class="pill-group" id="langFilter">
+        <button class="pill active" data-lang="all">ALL</button>
+        <button class="pill" data-lang="kr">KOREAN</button>
+        <button class="pill" data-lang="jp">JAPANESE</button>
+        <button class="pill" data-lang="en">ENGLISH</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MOBILE FILTER BAR -->
+  <div class="mobile-filter-bar">
+    <button class="mfb-artist" id="mfbArtist">ITZY ▾</button>
+    <button class="mfb-filters" id="mfbFilters">
+      <i class="ti ti-adjustments-horizontal"></i>
+      FILTERS
+      <span class="mfb-badge" id="mfbBadge">0</span>
+    </button>
+    <!-- tags de filtros ativos inseridas pelo JS -->
+    <div id="mfbTags" style="display:contents"></div>
+  </div>
+
+  <!-- RESULTS BAR -->
+  <div class="results-bar">
+    <div class="results-count" id="resultsCount">— releases</div>
+    <select class="sort-select" id="sortSelect">
+      <option value="newest">NEWEST FIRST</option>
+      <option value="oldest">OLDEST FIRST</option>
+      <option value="az">A → Z</option>
+    </select>
+  </div>
+
+  <!-- GRID -->
+  <div class="disc-grid" id="discGrid"></div>
+
+  <div class="empty-state" id="emptyState" style="display:none">
+    <i class="ti ti-music-off" aria-hidden="true"></i>
+    <p>No releases found for this filter combination.</p>
+  </div>
+
+</main>
+
+<!-- FOLLOW ROW -->
+  <div class="follow-row">
+    <div class="follow-left">
+      <strong>FOLLOW ITZY</strong>
+      Follow the group on their official social media accounts!
+    </div>
+    <div class="follow-links">
+      <a class="social-link" href="https://www.instagram.com/itzy.all.in.us/" aria-label="Instagram">
+        <i class="ti ti-brand-instagram" style="font-size:20px" aria-hidden="true"></i> Instagram
+      </a>
+      <a class="social-link" href="https://youtube.com/@itzy" aria-label="YouTube">
+        <i class="ti ti-brand-youtube" style="font-size:20px" aria-hidden="true"></i> YouTube
+      </a>
+      <a class="social-link" href="https://x.com/ITZYofficial" aria-label="Twitter">
+        <i class="ti ti-brand-twitter" style="font-size:20px" aria-hidden="true"></i> Twitter
+      </a>
+      <a class="social-link" href="https://www.tiktok.com/@itzyofficial" aria-label="TikTok">
+        <i class="ti ti-brand-tiktok" style="font-size:20px" aria-hidden="true"></i> TikTok
+      </a>
+      <a class="social-link" href="https://open.spotify.com/artist/2KC9Qb60EaY0kW4eH68vr3" aria-label="Spotify">
+        <i class="ti ti-brand-spotify" style="font-size:20px" aria-hidden="true"></i> Spotify
+      </a>
+    </div>
+  </div>
+
+<footer class="flix-footer">
+  <p>Made by <a href="https://x.com/ltzyme" target="_blank">@ltzyme</a> · All media belongs to their respective owners</p>
+</footer>
+
+<!-- ===== ARTIST SHEET (mobile) ===== -->
+<div class="filter-drawer" id="artistSheet">
+  <div class="drawer-overlay" id="artistSheetOverlay"></div>
+  <div class="drawer-sheet">
+    <div class="drawer-handle"></div>
+    <div class="drawer-header">
+      <div class="drawer-title">SELECT ARTIST</div>
+    </div>
+    <div class="drawer-pills">
+      <button class="drawer-pill sheet-atab active" data-artist="all">ITZY</button>
+      <button class="drawer-pill sheet-atab" data-artist="yeji">YEJI</button>
+      <button class="drawer-pill sheet-atab" data-artist="lia">LIA</button>
+      <button class="drawer-pill sheet-atab" data-artist="ryujin">RYUJIN</button>
+      <button class="drawer-pill sheet-atab" data-artist="chaeryeong">CHAERYEONG</button>
+      <button class="drawer-pill sheet-atab" data-artist="yuna">YUNA</button>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FILTER DRAWER (mobile) ===== -->
+<div class="filter-drawer" id="filterDrawer">
+  <div class="drawer-overlay" id="drawerOverlay"></div>
+  <div class="drawer-sheet">
+    <div class="drawer-handle"></div>
+    <div class="drawer-header">
+      <div class="drawer-title">FILTERS</div>
+      <button class="drawer-clear" id="drawerClear">CLEAR ALL</button>
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-label">TYPE</div>
+      <div class="drawer-pills">
+        <button class="drawer-pill active" data-cat="all">ALL</button>
+        <button class="drawer-pill" data-cat="album">ALBUM</button>
+        <button class="drawer-pill" data-cat="mini">MINI ALBUM</button>
+        <button class="drawer-pill" data-cat="single">SINGLE</button>
+        <button class="drawer-pill" data-cat="ost">OST</button>
+        <button class="drawer-pill" data-cat="collab">COLLAB</button>
+      </div>
+    </div>
+
+    <div class="drawer-section">
+      <div class="drawer-section-label">LANGUAGE</div>
+      <div class="drawer-pills">
+        <button class="drawer-pill active" data-lang="all">ALL</button>
+        <button class="drawer-pill" data-lang="kr">KOREAN</button>
+        <button class="drawer-pill" data-lang="jp">JAPANESE</button>
+        <button class="drawer-pill" data-lang="en">ENGLISH</button>
+      </div>
+    </div>
+
+    <button class="drawer-apply" id="drawerApply">APPLY FILTERS</button>
+  </div>
+</div>
+
+<script src="../js/discography.js"></script>
+</body>
+</html>

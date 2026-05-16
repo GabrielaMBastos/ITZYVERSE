@@ -1,0 +1,415 @@
+{
+  "groupAwards": {
+    "2019": {
+      "count": 16,
+      "ceremonies": [
+        {
+          "ceremony": "Youtube Creator Awards",
+          "wins": ["100K Subscribers", "1 Million Subscribers"]
+        },
+        {
+          "ceremony": "Asia Artist Awards",
+          "wins": ["Rookie of the Year"]
+        },
+        {
+          "ceremony": "Brand of the Year Awards",
+          "wins": ["Female Rookie Idol of the Year"]
+        },
+        {
+          "ceremony": "K-Champ Awards",
+          "wins": ["Best Super Rookie"]
+        },
+        {
+          "ceremony": "Mnet Artist Music Awards",
+          "wins": ["Best New Female Artist"]
+        },
+        {
+          "ceremony": "M2 X Genie Music Awards",
+          "wins": ["The Female New Artist"]
+        },
+        {
+          "ceremony": "Melon Music Awards",
+          "wins": ["Best New Female Artist"]
+        },
+        {
+          "ceremony": "Sports DongA Awards",
+          "wins": ["Idol Expected To Grow Well"]
+        },
+        {
+          "ceremony": "Mubeat Awards",
+          "wins": ["Rookie Artist (Female)"]
+        },
+        {
+          "ceremony": "Soribada Best K-Music Awards",
+          "wins": ["Rookie Award"]
+        },
+        {
+          "ceremony": "Vlive Awards V Heartbeat",
+          "wins": ["Top 5 New Rookie Artist"]
+        },
+        {
+          "ceremony": "Golden Disc Awards",
+          "wins": ["Rookie of the Year Award"]
+        },
+        {
+          "ceremony": "Gaon Chart Music Awards",
+          "wins": ["New Artist of the Year (Digital)"]
+        },
+        {
+          "ceremony": "Korea First Brand Awards",
+          "wins": ["New Female Artist"]
+        },
+        {
+          "ceremony": "Seoul Music Awards",
+          "wins": ["New Artist Award"]
+        }
+      ]
+    },
+    "2020": {
+      "count": 16,
+      "ceremonies": [
+        {
+          "ceremony": "The Fact Music Awards",
+          "wins": ["Next Leader", "Best Performer"]
+        },
+        {
+          "ceremony": "Golden Disc Awards",
+          "wins": ["Dalla Dalla – Digital Bonsang", "Rookie of the Year Award"]
+        },
+        {
+          "ceremony": "JOOX Top Music Awards Malaysia",
+          "wins": [
+            "Top 5 Hits: K-pop Years End 2020 (Not Shy)",
+            "Top 5 K-Pop Hits (Wannabe)"
+          ]
+        },
+        {
+          "ceremony": "Asia Artist Awards",
+          "wins": ["Hot Issue Award", "Best Choice Award (Female)"]
+        },
+        {
+          "ceremony": "K-Champ Awards",
+          "wins": [
+            "Top 1 Change Cam (Not Shy)",
+            "K-Champ Of The Year (Daesang)",
+            "Show Champion Fancam Top 5 (Not Shy)"
+          ]
+        },
+        {
+          "ceremony": "Seoul Music Awards",
+          "wins": ["Discovery of the Year"]
+        },
+        {
+          "ceremony": "Hanteo Certification Plaque",
+          "wins": ["Not Shy – 100,000 copies"]
+        },
+        {
+          "ceremony": "Gaon Chart Music Awards",
+          "wins": ["World K-Pop Rookie"]
+        },
+        {
+          "ceremony": "Soribada Best K-Music Awards",
+          "wins": ["New K-Wave Artist Award"]
+        },
+        {
+          "ceremony": "2020 KKBOX Music Awards",
+          "wins": ["Top 10 Artist Of The Year"]
+        }
+      ]
+    },
+    "2021": {
+      "count": 21,
+      "ceremonies": [
+        {
+          "ceremony": "Asian Pop Music Awards",
+          "wins": [
+            "Top 20 Songs of the Year (In The Morning)",
+            "Top 20 Songs of the Year (Loco)",
+            "Top 20 Albums of the Year (Crazy In Love)"
+          ]
+        },
+        {
+          "ceremony": "Gaon Chart Music Awards",
+          "wins": ["World K-POP Rookie"]
+        },
+        {
+          "ceremony": "Hanteo Certification Plaque",
+          "wins": ["Guess Who – 200,000 copies", "Crazy In Love – 200,000 copies"]
+        },
+        {
+          "ceremony": "KKBOX Music Awards",
+          "wins": [
+            "Year-End Top 20 Korean Songs (In The Morning)",
+            "Year-End Top 10 Korean Artist (#7 ITZY)"
+          ]
+        },
+        {
+          "ceremony": "Tokopedia WIB Indonesia K-pop Awards",
+          "wins": ["The Most Confident at Showing Their Talents (Ter-Not Shy)"]
+        },
+        {
+          "ceremony": "RIAJ Certification",
+          "wins": ["Wannabe (Gold)", "Dalla Dalla (Gold)", "Icy (Gold)"]
+        },
+        {
+          "ceremony": "Golden Disc Awards",
+          "wins": ["Wannabe – Digital Bonsang"]
+        },
+        {
+          "ceremony": "Hanteo Music Awards",
+          "wins": ["Top 3 Female Group"]
+        },
+        {
+          "ceremony": "K-Champ Awards",
+          "wins": ["Best Random Play Dance"]
+        },
+        {
+          "ceremony": "Asia Artist Awards",
+          "wins": ["Best Musician Award", "AAA Groove"]
+        },
+        {
+          "ceremony": "JOOX Top Music Awards Malaysia",
+          "wins": ["Top 5 Hits – K-Pop"]
+        },
+        {
+          "ceremony": "The Fact Music Awards",
+          "wins": ["Artist of the Year (Bonsang)"]
+        },
+        {
+          "ceremony": "Mnet Japan Fan's Choice Awards",
+          "wins": ["Female Comeback Of The Year"]
+        },
+        {
+          "ceremony": "YouTube Creator Awards",
+          "wins": ["Silver Creator Award (ITZY JAPAN)"]
+        }
+      ]
+    },
+    "2022": {
+      "count": 18,
+      "ceremonies": [
+        {
+          "ceremony": "Japan Gold Disc Award",
+          "wins": ["Best 3 New Artist"]
+        },
+        {
+          "ceremony": "TikTok Awards",
+          "wins": [
+            "Silver Awards (itzyofficial_jp)",
+            "Silver Awards (itzyofficial)",
+            "Gold Awards (itzyofficial)"
+          ]
+        },
+        {
+          "ceremony": "Hanteo Certification Plaque",
+          "wins": ["Checkmate – 200,000 copies", "Cheshire – 500,000 copies"]
+        },
+        {
+          "ceremony": "K-Heart Dream Awards",
+          "wins": ["K Global Bonsang", "K-Global Best Music Awards"]
+        },
+        {
+          "ceremony": "Asia Artist Awards",
+          "wins": ["AAA Best Artist (Singer)", "AAA Asia Celebrity Award (Singer)"]
+        },
+        {
+          "ceremony": "The Fact Music Awards",
+          "wins": ["Artist Of The Year (Bonsang)"]
+        },
+        {
+          "ceremony": "K-Champ Awards",
+          "wins": ["Weekly Idol Millions TOP10"]
+        },
+        {
+          "ceremony": "RIAJ Certification",
+          "wins": ["Not Shy (Gold)"]
+        },
+        {
+          "ceremony": "We Pick Awards",
+          "wins": ["Sorry Not Sorry", "Swipe"]
+        },
+        {
+          "ceremony": "Studio Choom",
+          "wins": ["50M (Wannabe)"]
+        },
+        {
+          "ceremony": "Asian Pop Music Awards",
+          "wins": ["Top 20 Albums of the Year (Checkmate)"]
+        }
+      ]
+    },
+    "2023": {
+      "count": 6,
+      "ceremonies": [
+        {
+          "ceremony": "K-Heart Dream Awards",
+          "wins": ["K Global Bonsang"]
+        },
+        {
+          "ceremony": "The Fact Music Awards",
+          "wins": ["Artist Of The Year (Bonsang)"]
+        },
+        {
+          "ceremony": "Circle Chart Music Awards",
+          "wins": ["Artist of the Year – Global Digital (November)"]
+        },
+        {
+          "ceremony": "Hanteo Certification Plaque",
+          "wins": ["Kill My Doubt – 500,000 copies"]
+        },
+        {
+          "ceremony": "Asia Artist Awards",
+          "wins": ["AAA Best Artist (Singer)"]
+        },
+        {
+          "ceremony": "Asian Pop Music Awards",
+          "wins": ["Top 20 Overseas Songs of the Year – \"CAKE\""]
+        }
+      ]
+    },
+    "2024": {
+      "count": 7,
+      "ceremonies": [
+        {
+          "ceremony": "K-World Dream Awards",
+          "wins": ["Bonsang"]
+        },
+        {
+          "ceremony": "The Fact Music Awards",
+          "wins": ["Artist of the Year", "World Best Performer"]
+        },
+        {
+          "ceremony": "Music Bank",
+          "wins": ["Best Performance Musician (GOLD)", "Best Performance Musician (Imaginary Friend)"]
+        },
+        {
+          "ceremony": "BreakTudo Awards",
+          "wins": ["Grupo Internacional Femenino"]
+        },
+        {
+          "ceremony": "Asian Pop Music Awards",
+          "wins": ["Top 20 Albums of the Year (Gold)"]
+        }
+      ]
+    },
+    "2025": {
+      "count": 4,
+      "ceremonies": [
+        {
+          "ceremony": "Music Bank",
+          "wins": ["Best Performance Musician (Girls Will Be Girls)"]
+        },
+        {
+          "ceremony": "TIMA Music Award",
+          "wins": ["Best International Stage Performance"]
+        },
+        {
+          "ceremony": "BreakTudo Awards",
+          "wins": ["K-Pop Hit Of The Year – Girls Will Be Girls"]
+        },
+        {
+          "ceremony": "MAMA",
+          "wins": ["Fans' Choice"]
+        }
+      ]
+    }
+  },
+
+  "showWins": [
+    { "song": "DALLA DALLA",    "wins": 9  },
+    { "song": "ICY",            "wins": 12 },
+    { "song": "WANNABE",        "wins": 8  },
+    { "song": "NOT SHY",        "wins": 5  },
+    { "song": "IN THE MORNING", "wins": 5  },
+    { "song": "LOCO",           "wins": 3  },
+    { "song": "SNEAKERS",       "wins": 3  },
+    { "song": "CHESHIRE",       "wins": 1  },
+    { "song": "CAKE",           "wins": 1  },
+    { "song": "UNTOUCHABLE",    "wins": 1  },
+    { "song": "TUNNEL VISION",  "wins": 1  }
+  ],
+
+  "soloAwards": [
+    {
+      "member": "yeji",
+      "label": "YEJI",
+      "count": 10,
+      "ceremonies": [
+        {
+          "ceremony": "NYX Awards",
+          "wins": ["Music Category", "Celebrity/Fan Category", "Entertainment (YouTube/Video)"]
+        },
+        {
+          "ceremony": "2022 LIT Awards",
+          "wins": ["Dance: Best Dance Video"]
+        },
+        {
+          "ceremony": "2022 MUSE Awards",
+          "wins": ["Video/Music Category"]
+        },
+        {
+          "ceremony": "Studio Choom",
+          "wins": ["50M Views (AOTM)", "50M Views (MIX & MAX)"]
+        },
+        {
+          "ceremony": "Music Bank",
+          "wins": ["Best Performance Musician (Air)"]
+        },
+        {
+          "ceremony": "2025 Asian Pop Music Awards",
+          "wins": ["Top 20 Songs of the Year (AIR)"]
+        },
+        {
+          "ceremony": "2025 Korean Sales Music Awards",
+          "wins": ["Best New Female Soloist"]
+        }
+      ]
+    },
+    {
+      "member": "ryujin",
+      "label": "RYUJIN",
+      "count": 4,
+      "ceremonies": [
+        {
+          "ceremony": "2020 K-Champ Awards",
+          "wins": ["Best Weekly Idol Individual Cam"]
+        },
+        {
+          "ceremony": "2022 LIT Awards",
+          "wins": ["Dance: Best Dance Video"]
+        },
+        {
+          "ceremony": "2022 MUSE Awards",
+          "wins": ["Video/Music Category"]
+        },
+        {
+          "ceremony": "Studio Choom",
+          "wins": ["50M Views (MIX & MAX)"]
+        }
+      ]
+    },
+    {
+      "member": "yuna",
+      "label": "YUNA",
+      "count": 4,
+      "ceremonies": [
+        {
+          "ceremony": "2021 K-Champ Awards",
+          "wins": ["Best Weekly Idol Individual Cam"]
+        },
+        {
+          "ceremony": "YouTube Creator Awards",
+          "wins": ["100K Subscribers"]
+        },
+        {
+          "ceremony": "M COUNTDOWN",
+          "wins": ["Monthly MCD Pick (Ice Cream)"]
+        },
+        {
+          "ceremony": "Music Bank",
+          "wins": ["Fans' Stage Pick (Ice Cream)"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,773 @@
+/* =========================================
+   ITZYVERSE — awards.css
+   ========================================= */
+
+/* ---------- RESET & BASE ---------- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #0d0d0d;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-main {
+  flex: 1; /* cresce para preencher o espaço disponível */
+}
+
+/* ---------- NAV ---------- */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo span {
+  color: #e83e8c;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+  margin: 0 auto;
+}
+
+.nav-links a {
+  color: #666;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #e83e8c;
+}
+
+.nav-links a.active {
+  color: #e83e8c;
+  border-bottom: 1.5px solid #e83e8c;
+  padding-bottom: 2px;
+}
+
+/* ---------- PAGE HEADER ---------- */
+.page-header {
+  padding: 36px 40px 0;
+}
+
+.eyebrow {
+  font-size: 16px;
+  letter-spacing: 4px;
+  color: #e83e8c;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.eyebrow::before {
+  content: '★';
+  font-size: 16px;
+}
+
+.page-title {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -2px;
+  line-height: 1;
+  color: #fff;
+}
+
+.page-title span { color: #e83e8c; }
+
+.total-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #1a0010;
+  border: 1px solid #e83e8c;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #e83e8c;
+  margin-top: 14px;
+}
+
+/* ---------- MAIN TABS ---------- */
+.main-tabs {
+  display: flex;
+  gap: 0;
+  padding: 24px 40px 0;
+  border-bottom: 1px solid #1e1e1e;
+  margin-top: 4px;
+}
+
+.mtab {
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #555;
+  padding: 12px 22px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.mtab:hover { color: #fff; }
+
+.mtab.active {
+  color: #e83e8c;
+  border-bottom: 2px solid #e83e8c;
+}
+
+/* ---------- TAB CONTENT ---------- */
+.tab-content {
+  display: none;
+  padding: 28px 40px 60px;
+}
+
+.tab-content.visible { display: block; }
+
+/* ---------- YEAR FILTER ---------- */
+.year-filter {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 28px;
+  flex-wrap: wrap;
+}
+
+.ypill {
+  font-size: 9px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #555;
+  padding: 6px 14px;
+  border: 1px solid #222;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 20px;
+  transition: all 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.ypill:hover { color: #fff; border-color: #444; }
+
+.ypill.active {
+  color: #e83e8c;
+  border-color: #e83e8c;
+}
+
+/* ---------- YEAR BLOCK ---------- */
+.year-block {
+  margin-bottom: 36px;
+  display: none;
+}
+
+.year-block.visible { display: block; }
+
+.year-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1e1e1e;
+}
+
+.year-num {
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.year-count {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #555;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ---------- AWARDS GRID ---------- */
+.awards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/* ---------- AWARD CARD ---------- */
+.award-card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-left: 2px solid #e83e8c;
+  border-radius: 3px;
+  padding: 14px 16px;
+  transition: background 0.2s;
+}
+
+.award-card:hover { background: #161616; }
+
+.award-ceremony {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e83e8c;
+  margin-bottom: 8px;
+}
+
+.award-item {
+  font-size: 11px;
+  color: #aaa;
+  line-height: 1.8;
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.award-item::before {
+  content: '—';
+  color: #333;
+  font-size: 10px;
+  flex-shrink: 0;
+}
+
+/* ---------- MUSIC SHOW WINS ---------- */
+.show-summary {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.show-total {
+  font-size: 48px;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
+.show-total-label {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: #555;
+  text-transform: uppercase;
+  max-width: 120px;
+  line-height: 1.5;
+}
+
+.wins-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.win-card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-radius: 3px;
+  padding: 20px 14px;
+  text-align: center;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.win-card:hover {
+  border-color: #e83e8c;
+  background: #161616;
+}
+
+.win-trophy {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.win-song {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.win-count {
+  font-size: 32px;
+  font-weight: 900;
+  color: #e83e8c;
+  line-height: 1;
+}
+
+.win-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+/* ---------- SOLO AWARDS ---------- */
+.solo-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.stab {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #555;
+  padding: 8px 16px;
+  border: 1px solid #222;
+  background: transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.2s;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.stab:hover { color: #fff; border-color: #444; }
+
+.stab.active {
+  background: #e83e8c;
+  color: #fff;
+  border-color: #e83e8c;
+}
+
+.solo-section {
+  display: none;
+}
+
+.solo-section.visible { display: block; }
+
+.solo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+/*FOLLOW*/
+.follow-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 40px;
+  border-top: 1px solid #1e1e1e;
+}
+.follow-left {
+  font-size: 11px;
+  color: #555;
+  letter-spacing: 1px;
+}
+.follow-left strong {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: #e83e8c;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.follow-links {
+  display: flex;
+  gap: 20px;
+}
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #666;
+  font-size: 11px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+.social-link:hover {
+  color: #e83e8c;
+}
+
+/*FOOTER */
+.flix-footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 10px;
+  color: #555;
+  border-top: 1px solid #1e1e1e;
+}
+
+.flix-footer a {
+  color: #e83e8c;
+  text-decoration: none;
+}
+
+.year-filter-select {
+  display: none;
+}
+
+/* =========================================
+   RESPONSIVIDADE — AWARDS
+   Adicionar no final do awards.css
+========================================= */
+
+/* Hamburger e mobile menu ocultos por padrão */
+.nav-hamburger { display: none; }
+.mobile-menu   { display: none; }
+
+/* ===== TABLET (769px–1024px) ===== */
+@media (max-width: 1024px) {
+
+  .page-header {
+    padding: 28px 28px 0;
+  }
+
+  .page-title {
+    font-size: 38px;
+  }
+
+  .main-tabs {
+    padding: 20px 28px 0;
+  }
+
+  .tab-content {
+    padding: 24px 28px 48px;
+  }
+
+  .awards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wins-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .solo-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .follow-row {
+    padding: 28px 28px;
+  }
+}
+
+/* ===== MOBILE (até 768px) ===== */
+@media (max-width: 768px) {
+
+  /* NAV */
+  .nav {
+    padding: 14px 20px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .nav-hamburger span {
+    width: 22px;
+    height: 2px;
+    background: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background: #0d0d0d;
+    border-bottom: 1px solid #1e1e1e;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  .mobile-menu a {
+    padding: 14px 20px;
+    border-top: 1px solid #1e1e1e;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  .mobile-menu.open {
+    max-height: 300px;
+  }
+
+  /* HEADER */
+  .page-header {
+    padding: 24px 20px 0;
+  }
+
+  .page-title {
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+
+  .total-badge {
+    font-size: 9px;
+    padding: 5px 12px;
+  }
+
+  /* TABS */
+  .main-tabs {
+    padding: 16px 20px 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    flex-wrap: nowrap;
+  }
+
+  .main-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .mtab {
+    font-size: 10px;
+    padding: 10px 16px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* TAB CONTENT */
+  .tab-content {
+    padding: 20px 20px 40px;
+  }
+
+  /* YEAR FILTER */
+  .year-filter {
+    gap: 6px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+  }
+
+  .year-filter::-webkit-scrollbar {
+    display: none;
+  }
+
+  .ypill {
+    flex-shrink: 0;
+    font-size: 8px;
+    padding: 5px 12px;
+  }
+
+  /* YEAR BLOCK */
+  .year-num {
+    font-size: 24px;
+  }
+
+  .year-count {
+    font-size: 9px;
+  }
+
+  /* AWARDS GRID */
+  .awards-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .award-ceremony {
+    font-size: 9px;
+  }
+
+  .award-item {
+    font-size: 10px;
+  }
+
+  /* MUSIC SHOW WINS */
+  .show-total {
+    font-size: 36px;
+  }
+
+  .show-total-label {
+    font-size: 9px;
+  }
+
+  .wins-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .win-song {
+    font-size: 9px;
+  }
+
+  .win-count {
+    font-size: 26px;
+  }
+
+  /* SOLO TABS */
+  .solo-tabs {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    gap: 6px;
+  }
+
+  .solo-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .stab {
+    flex-shrink: 0;
+    font-size: 9px;
+    padding: 7px 12px;
+  }
+
+  /* SOLO GRID */
+  .solo-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  /* FOLLOW */
+  .follow-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 20px;
+  }
+
+  .follow-left {
+    font-size: 9px;
+  }
+
+  .social-link {
+    font-size: 0;
+  }
+
+  .social-link i {
+    font-size: 20px;
+  }
+
+  .follow-links {
+    gap: 16px;
+  }
+
+  /* esconde as pills no mobile */
+.year-filter {
+  display: none;
+}
+
+/* mostra o select nativo */
+.year-filter-select {
+  display: block;
+  width: 100%;
+  padding: 10px 14px;
+  background: #111;
+  border: 1px solid #333;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23e83e8c' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+.year-filter-select:focus {
+  border-color: #e83e8c;
+}
+}
+
+/* ===== SMALL MOBILE (até 480px) ===== */
+@media (max-width: 480px) {
+
+  .page-title {
+    font-size: 24px;
+  }
+
+  .wins-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .win-card {
+    padding: 14px 10px;
+  }
+
+  .win-count {
+    font-size: 22px;
+  }
+
+  .win-trophy {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .award-card {
+    padding: 12px 14px;
+  }
+}
+
+/* Mobile menu fixo na tela */
+.mobile-menu {
+  position: fixed;
+  top: 53px; /* altura da nav */
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 300px;
+}

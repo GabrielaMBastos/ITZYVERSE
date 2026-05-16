@@ -1,0 +1,684 @@
+[
+  {
+    "title": "IT'z Different",
+    "artist": "all",
+    "type": "single",
+    "lang": "kr",
+    "year": 2019,
+    "date": "2019-02-11",
+    "cover": "/assets/discography/itz-different.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_ll80wPRV0BVN0NhkIIleMKCnqzkzxjuYo&si=4qJVoru9gZK1rsIj",
+      "spotify": "https://open.spotify.com/album/7Mxbav9clZ3AVDKThwwgXS?si=CisooIwzSmGDC4baQzui4Q",
+      "appleMusic": "https://music.apple.com/us/album/itz-different-single/1608248892"
+    }
+  },
+  {
+    "title": "IT'z ICY",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2019,
+    "date": "2019-07-29",
+    "cover": "/assets/discography/itz-icy.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_lfDD7cMsxBegVKeT2WWqmtD9wiQ5ngtgo&si=ybBj5pl4mpC3-hAm",
+      "spotify": "https://open.spotify.com/album/5Xb03XAF2LoaMqbM38H9eB?si=pTvaHYmuQ0aU5lZI6u562g",
+      "appleMusic": "https://music.apple.com/us/album/itz-icy-ep/1608253081"
+    }
+  },
+  {
+    "title": "IT'z Me",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2020,
+    "date": "2020-03-09",
+    "cover": "/assets/discography/itz-me.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_lj7A9ds8Wfo8JD3GRKWqkP_sOC1SsCtVs&si=YOl2J_D32cGsTy3q",
+      "spotify": "https://open.spotify.com/album/7ynKAohxfwPUZzvU8f1p1U?si=m3AI8DAwRWm1yDIBIDTwoQ",
+      "appleMusic": "https://music.apple.com/us/album/itz-me/1608253207"
+    }
+  },
+  {
+    "title": "Not Shy",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2020,
+    "date": "2020-08-17",
+    "cover": "/assets/discography/not-shy.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n5apaQRZsjpuIm-xeXlC57jcv3LxlUEy8&si=vX4YRL9dm8wnNA3N",
+      "spotify": "https://open.spotify.com/album/5NN55LKbjzX16a7Uf8u7Os?si=YTn6NmSYQiScOx9oxMWx0Q",
+      "appleMusic": "https://music.apple.com/us/album/not-shy-ep/1608247235"
+    }
+  },
+  {
+    "title": "Not Shy (English Ver.)",
+    "artist": "all",
+    "type": "mini",
+    "lang": "en",
+    "year": 2020,
+    "date": "2021-01-22",
+    "cover": "/assets/discography/not-shy-eng.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n9OmKcrA0dit1hGLJak06W6MCIE97TygM&si=YnzhC9wNMqXau9To",
+      "spotify": "https://open.spotify.com/album/0hoNwSKuuOeT9eAxopgMdm?si=GZXsjo7OSHC-bgIFEQ-QgQ",
+      "appleMusic": "https://music.apple.com/us/album/not-shy-english-version-ep/1608248589"
+    }
+  },
+  {
+    "title": "MIDZY",
+    "artist": "all",
+    "type": "single",
+    "lang": "kr",
+    "year": 2021,
+    "date": "2021-03-20",
+    "cover": "/assets/discography/midzy.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n16xZ4pfujy2QnDVYz7HwikYp8TLKrwGE&si=KjFiMqCcZH4j8e47",
+      "spotify": "https://open.spotify.com/album/7EHXDcznIDHxNWTSPBf9Po?si=Cl_ZY4mQRp2f_yIq6wB_eQ",
+      "appleMusic": "https://music.apple.com/us/album/trust-me-midzy-single/1608256462"
+    }
+  },
+  {
+    "title": "Guess Who",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2021,
+    "date": "2021-04-30",
+    "cover": "/assets/discography/guess-who.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nL0nJkuLCHdMfWFyET2SMaaJ8GPmp8xiA&si=zv3JZfBlk623HXZ0",
+      "spotify": "https://open.spotify.com/album/4lS8nhX8cplsYPzKjvhw6G?si=eTtbabBuSWaknGeAfLTfxQ",
+      "appleMusic": "https://music.apple.com/us/album/guess-who-ep/1608247024"
+    }
+  },
+  {
+    "title": "Break Ice",
+    "artist": "all",
+    "collabWith": ["aunt kim"],
+    "type": "single",
+    "lang": "kr",
+    "year": 2021,
+    "date": "2021-04-30",
+    "cover": "/assets/discography/break-ice.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=_E0eASkI7Kk&si=BP_m__SVgQdcHdcc",
+      "spotify": "https://open.spotify.com/track/4iEeJKOE5zjsRbWBGkj9lS?si=6c28fdb5dc6a4309",
+      "appleMusic": "https://music.apple.com/us/album/break-ice-single/1574444578"
+    }
+  },
+  {
+    "title": "In the Morning (English Ver.)",
+    "artist": "all",
+    "type": "single",
+    "lang": "en",
+    "year": 2021,
+    "date": "2021-05-14",
+    "cover": "/assets/discography/itm-eng.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n3ZXkF8lq4R5pWIgBmDXy6gTzuN0kXyMs&si=Y_BC2QZNWP0gzFG3",
+      "spotify": "https://open.spotify.com/album/1VbG3CJlf1cSVDibgiM3GM?si=SXIKYY8sSZOxEw1IzHL53w",
+      "appleMusic": "https://music.apple.com/us/album/in-the-morning-english-version-single/1608256560"
+    }
+  },
+  {
+    "title": "Crazy in Love",
+    "artist": "all",
+    "type": "album",
+    "lang": "kr",
+    "year": 2021,
+    "date": "2021-09-24",
+    "cover": "/assets/discography/crazy-in-love.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kcaeZn7iv4wnIbmCRNTpX1im1NX4q-_tw&si=pv19i9XSYfXbgCJ5",
+      "spotify": "https://open.spotify.com/album/4U7rGOkJgtxs27H9L93Xli?si=8Ysh9JS0RwSAA6j2Ay1suQ",
+      "appleMusic": "https://music.apple.com/us/album/crazy-in-love/1608111697"
+    }
+  },
+  {
+    "title": "IT'z ITZY",
+    "artist": "all",
+    "type": "album",
+    "lang": "jp",
+    "year": 2021,
+    "date": "2021-12-22",
+    "cover": "/assets/discography/itz-itzy.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kbuju4YxJj3MEKEsCvvchsepwe2yR5wCI&si=QHBpoebg4ijv3FG6",
+      "spotify": "https://open.spotify.com/album/1VvOaePbpheLTFGUlOb2yE?si=_ndrcV0CQ3O3X6MRIBrg_A",
+      "appleMusic": "https://music.apple.com/us/album/itz-itzy-japanese-version-ep/1591440954"
+    }
+  },
+  {
+    "title": "Weapon",
+    "artist": "all",
+    "featuring": ["(With Newnion, FLOOR) (Prod.Czaer)"],
+    "type": "single",
+    "lang": "kr",
+    "year": 2021,
+    "date": "2022-01-04",
+    "cover": "/assets/discography/weapon.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=KJrPsT2X-yk&si=Nv1bWuEkQlZRXpT7",
+      "spotify": "https://open.spotify.com/track/6poVmpGU3y3jj1Z9xbbbH4?si=5461b87b47784bed",
+      "appleMusic": "https://music.apple.com/us/album/street-dance-girls-fighter-sgf-special-single/1603086713"
+    }
+  },
+  {
+    "title": "Voltage",
+    "artist": "all",
+    "type": "single",
+    "lang": "jp",
+    "year": 2022,
+    "date": "2022-04-06",
+    "cover": "/assets/discography/voltage.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nYID6NnDVFt0zh3tYegFQRQnEj9ffoS5I&si=rcxU7zAA1QrzKhvd",
+      "spotify": "https://open.spotify.com/album/6BhKPFeQDaBldGMl1vd28h?si=hk_DV7wESU-RtvMdmDJs0A",
+      "appleMusic": "https://music.apple.com/us/album/voltage-ep/1613178415"
+    }
+  },
+  {
+    "title": "Checkmate",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2022,
+    "date": "2022-07-15",
+    "cover": "/assets/discography/checkmate.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_n5NuRXyayQUB5gmgtX2fSEpRjSryc2I2w&si=WMcjo7WLkjG5GKJl",
+      "spotify": "https://open.spotify.com/album/64EGnoCD5NuC41OqQ3E7UK?si=RRnoeeYYTnOBYRCcZnYRvg",
+      "appleMusic": "https://music.apple.com/us/album/checkmate/1627524248"
+    }
+  },
+  {
+    "title": "Blah Blah Blah",
+    "artist": "all",
+    "type": "single",
+    "lang": "jp",
+    "year": 2022,
+    "date": "2022-10-05",
+    "cover": "/assets/discography/3blah.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kTvf4_21jI7GdsZH-dIV01mvXddGBIuPs&si=ulXDZoYnhxwYnfpO",
+      "spotify": "https://open.spotify.com/album/3xDuIhFckdZPrS38dSr5Cl?si=Bmmk7pJNRaezob6FI4laVg",
+      "appleMusic": "https://music.apple.com/us/album/blah-blah-blah-ep/1643852425"
+    }
+  },
+  {
+    "title": "Boys Like You",
+    "artist": "all",
+    "type": "single",
+    "lang": "en",
+    "year": 2022,
+    "date": "2022-10-21",
+    "cover": "/assets/discography/boys-like-you.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mvkUy2JVO7UjLGhMcUo9R-8dyqRLd5Atw&si=tvZsr_-fKZbgFcjP",
+      "spotify": "https://open.spotify.com/album/1KYgerdWcEqB7KbppYtdXU?si=qqzpwf2rR_iJtBxokNMA-w",
+      "appleMusic": "https://music.apple.com/us/album/boys-like-you-single/1648963019"
+    }
+  },
+  {
+    "title": "Cheshire",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2022,
+    "date": "2022-11-30",
+    "cover": "/assets/discography/cheshire.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_lTzHdLsqGrtbhvwZMD1cmYwN6UxOGMKyU&si=8N6GOinBBgcttL94",
+      "spotify": "https://open.spotify.com/album/2a1ezg7hE6Dyuymv1aCnkm?si=OhX4JXHRRyeJzIH5-nYavw",
+      "appleMusic": "https://music.apple.com/us/album/cheshire-ep/1654019775"
+    }
+  },
+  {
+    "title": "Kill My Doubt",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2023,
+    "date": "2023-07-31",
+    "cover": "/assets/discography/kill-my-doubt.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mcbLmDfSZe1rfP2e6JjmUKvrtbTRS8t2M&si=U8erQRgktM3Ye7I4",
+      "spotify": "https://open.spotify.com/album/6P01cKb7sdwfnNpuMLNEik?si=o9x-po4JRpe48HvvPGZhNQ",
+      "appleMusic": "https://music.apple.com/us/album/kill-my-doubt-ep/1694036733"
+    }
+  },
+  {
+    "title": "Superpowers",
+    "artist": "all",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2023,
+    "date": "2023-10-8",
+    "cover": "/assets/discography/superpowers.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=nYCPs5LMLcU&si=CLex688-JiDQm1NH",
+      "spotify": "https://open.spotify.com/track/2T0cn0hvGrG8vqqB8sK4zX?si=1caa34881ce7465f",
+      "appleMusic": "https://music.apple.com/us/album/superpowers/1710494311?i=1710494312"
+    }
+  },
+  {
+    "title": "Ringo",
+    "artist": "all",
+    "type": "album",
+    "lang": "jp",
+    "year": 2023,
+    "date": "2023-10-18",
+    "cover": "/assets/discography/ringo.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_m7b-HlHUS7z8msjQ1zKenM5_8izN5znIk&si=EjD0TYqCBz1-QGl5",
+      "spotify": "https://open.spotify.com/album/1kRAzoCTDLqwU6nX2I2Nmc?si=CdfkJmB7QwGNz09QMnG-xA",
+      "appleMusic": "https://music.apple.com/us/album/ringo/1703993237"
+    }
+  },
+  {
+    "title": "Born To Be",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kodvKuHY1aewMdiU6SsGfQ08sYIzCDsSk&si=GcpD2eR13PtkDW6T",
+      "spotify": "https://open.spotify.com/album/3cm3EkNQLpKu58btSJT7fz?si=qzOdI3LVQsiGxB51EazQAA",
+      "appleMusic": "https://music.apple.com/us/album/born-to-be/1718647224"
+    }
+  },
+  {
+    "title": "Algorhythm",
+    "artist": "all",
+    "type": "single",
+    "lang": "jp",
+    "year": 2024,
+    "date": "2024-05-15",
+    "cover": "/assets/discography/algorhythm.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nzpSlMDhtWw79f46h8I8UarsbKWiQ62Vk&si=_16zqk-MVZ2meen4",
+      "spotify": "https://open.spotify.com/album/7ji7zKkvRlYOsu3ehctQRx?si=9Mz4LT_MTSyJ0u_yMiDVew",
+      "appleMusic": "https://music.apple.com/us/album/algorhythm-ep/1742963738"
+    }
+  },
+  {
+    "title": "Gold",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-10-15",
+    "cover": "/assets/discography/gold.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_ndHbbIwUCxFluTy7stzz-hI0QMlwAuwh4&si=fkJjYBKMVnC2aYA3",
+      "spotify": "https://open.spotify.com/intl-pt/album/4CRfobFgSG0GOzplgTI79s?si=eJPCYBliT0GTKI_X6fZ3fw",
+      "appleMusic": "https://music.apple.com/us/album/gold/1770573220"
+    }
+  },
+  {
+    "title": "GOLD (English Ver.)",
+    "artist": "all",
+    "type": "single",
+    "lang": "en",
+    "year": 2024,
+    "date": "2024-10-25",
+    "cover": "/assets/discography/gold-eng.png",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mfQY3jHqnsrCnFkJNA8XyLFs_P_14YlDI&si=qCG6bWlGUp3__bIx",
+      "spotify": "https://open.spotify.com/album/7Js9SjHrGGayRCUrgPw0aU?si=uX2N6k_ZTHOxJkvXfpOEhg",
+      "appleMusic": "https://music.apple.com/us/album/gold-english-ver-single/1775245988"
+    }
+  },
+   {
+    "title": "Say You'll be There",
+    "artist": "Emma Bunton, Mel B",
+    "featuring": ["lia", "yuna"],
+    "type": "ost",
+    "lang": "en",
+    "year": 2025,
+    "date": "2025-0-05",
+    "cover": "/assets/discography/kpopped.png",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=xNlJQH2etwk&si=huNfheN_-1aFPbEo",
+      "spotify": "https://open.spotify.com/track/3w80QirsUtzdm0d7h1i9DQ?si=6307e8f4e5a3470b",
+      "appleMusic": "https://music.apple.com/us/song/say-youll-be-there-from-kpopped/1840273484"
+    }
+  },
+   {
+    "title": "Wannabe",
+    "artist": "Emma Bunton, Mel B",
+    "featuring": ["yeji", "ryujin", "chaeryeong"],
+    "type": "ost",
+    "lang": "en",
+    "year": 2025,
+    "date": "2025-09-05",
+    "cover": "/assets/discography/kpopped.png",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=HD5pzrroduU&si=ICRJkJ0H58ULCnYv",
+      "spotify": "https://open.spotify.com/track/54CRm3b8FD3MvNqUuVCcmB?si=8054b078c0cd4729",
+      "appleMusic": "https://music.apple.com/us/song/wannabe-from-kpopped/1840273492"
+    }
+  },
+  {
+    "title": "Girls Will Be Girls",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2025,
+    "date": "2025-06-09",
+    "cover": "/assets/discography/gwbg.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_kLuxhZP9B8idU_UNfU0zujfombteXAaUg&si=ePo9bOPZPIdS5HS4",
+      "spotify": "https://open.spotify.com/album/0bVAPVpPL25nIfko4O1G4J?si=iDvowPhlTSKulUvXx0uXzw",
+      "appleMusic": "https://music.apple.com/us/album/girls-will-be-girls-ep/1813822759"
+    }
+  },
+  {
+    "title": "Collector",
+    "artist": "all",
+    "type": "album",
+    "lang": "jp",
+    "year": 2025,
+    "date": "2025-10-08",
+    "cover": "/assets/discography/rock&roll.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mMQxA4k7JeFt_XkQoIT7qU1VmVsTRuyYY&si=ZZN9KIic8er-6xD-",
+      "spotify": "https://open.spotify.com/album/57c4boNwQniM54V9Zv7zhh?si=H01V6NysQSGgf1rMDg9ZDg",
+      "appleMusic": "https://music.apple.com/br/album/collector/1842128746"
+    }
+  },
+  {
+    "title": "Tunnel Vision",
+    "artist": "all",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2025,
+    "date": "2025-11-10",
+    "cover": "/assets/discography/tunnel-vision.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_nAwplpKBLvrFvJQUrR89jEkhA6EoNW8SA&si=zfw7RlwSo37QXPba",
+      "spotify": "https://open.spotify.com/album/7CD7NdEDOMY5Owl9MEzgRw?si=WXd1jQneR_-NXJoAoTIZzw",
+      "appleMusic": "https://music.apple.com/br/album/tunnel-vision-ep/1846236584"
+    }
+  },
+
+
+  
+  {
+    "title": "Crown On My Head",
+    "artist": "yeji",
+    "type": "single",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=nCDHXw5GSDU&si=qEsbnVvMHplfkNB0",
+      "spotify": "https://open.spotify.com/track/7us3VPvRjtjuMEexfyRsMC?si=fce007eb14364678",
+      "appleMusic": "https://music.apple.com/us/album/crown-on-my-head-yeji/1718647224?i=1718647344"
+    }
+  },
+  {
+    "title": "AIR",
+    "artist": "yeji",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2025,
+    "date": "2025-03-10",
+    "cover": "/assets/discography/air.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_m11De6voKPIXWG0zVZJKYMshQTnQEnbaU&si=SZtTX2OtpdWi1az2",
+      "spotify": "https://open.spotify.com/album/6sJnzoRI9pXUo0gZxIviUS?si=uHcTN8byReeQff5vqmGyZQ",
+      "appleMusic": "https://music.apple.com/us/album/air-ep/1798736126"
+    }
+  },
+  {
+    "title": "Break My Heart Myself",
+    "artist": "bebe_rexha",
+    "featuring": ["yeji", "ryujin"],
+    "type": "single",
+    "lang": "en",
+    "year": 2022,
+    "date": "2022-07-29",
+    "cover": "/assets/discography/bmhm.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=9QVyxvo6oxM&si=2aFQzkQLYJyKDKmH",
+      "spotify": "https://open.spotify.com/track/5Av4jZOAbtY8STz7KPsNDB?si=b02e8364107c4106",
+      "appleMusic": "https://music.apple.com/us/album/break-my-heart-myself-single/1635865435"
+    }
+  },
+  {
+    "title": "Think About You",
+    "artist": "yeji",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-12-01",
+    "cover": "/assets/discography/think-about-you.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=k4p41Epo8cA&si=QHk9JykCZFfHzABU",
+      "spotify": "https://open.spotify.com/track/4og3b64aWTdgVk1ILheWxG?si=5fd21a303a734703",
+      "appleMusic": "https://music.apple.com/us/album/think-about-you-from-love-your-enemy/1782309652?i=1782309653"
+    }
+  },
+
+
+
+  {
+    "title": "Blossom",
+    "artist": "lia",
+    "type": "single",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=ebA3k0BK9Kc&si=XFgF4jZ_pjmpuf7X",
+      "spotify": "https://open.spotify.com/track/1GUOz1gZZTRWkGjwmrIYO8?si=1dc6c61c4e4a4a8f",
+      "appleMusic": "https://music.apple.com/us/album/blossom-lia/1718647224?i=1718647346"
+    }
+  },
+  {
+    "title": "Always Be Your Star",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2022,
+    "date": "2022-01-03",
+    "cover": "/assets/discography/always-be-your-star.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=aewp6Q7r_e8&si=gBpTTRqtN4iGbnNm",
+      "spotify": "https://open.spotify.com/track/04uLMJFa1x21WX9J4QYF83?si=182eed23bf4f4ef2",
+      "appleMusic": "https://music.apple.com/us/album/always-be-your-star/1603016110?i=1603016111"
+    }
+  },
+  {
+    "title": "Blue Flower",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2022,
+    "date": "2022-12-18",
+    "cover": "/assets/discography/blue-flower.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=8dNkF34p8Eg&si=T_9BXnpy5BfHMHdq",
+      "spotify": "https://open.spotify.com/track/4Xjw06dhxAVtsnug1ZpN76?si=96a6dc79ad9c4538",
+      "appleMusic": "https://music.apple.com/us/album/blue-flower/1660215778?i=1660215948"
+    }
+  },
+  {
+    "title": "One Hundred Love",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2023,
+    "date": "2023-05-26",
+    "cover": "/assets/discography/one-hundred-love.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=jTzM9Lf01zQ&si=quut-PnFFyJP22kl",
+      "spotify": "https://open.spotify.com/track/4tyvvXI34H0YILQctQr0N6?si=ff1c2ab3349e42a5",
+      "appleMusic": "https://music.apple.com/us/album/one-hundred-love/1688967056?i=1688967057"
+    }
+  },
+  {
+    "title": "Why Not",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-11-30",
+    "cover": "/assets/discography/why-not.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=Qc1RQ3aUsU8&si=NCd2AARuM8pFoMZR",
+      "spotify": "https://open.spotify.com/track/415dzQamP5pJ8dMfNVfUHL?si=139e9487e0ac43fc",
+      "appleMusic": "https://music.apple.com/us/album/why-not/1781863347?i=1781863348"
+    }
+  },
+  {
+    "title": "Woodahe",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-12-22",
+    "cover": "/assets/discography/woodahe.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=1_mNP6oA3y4&si=wOYgZzb07rOoPO-c",
+      "spotify": "https://open.spotify.com/track/5zqwFI0qVuC5sDN5v96hLp?si=a2d90a8a57c84d44",
+      "appleMusic": "https://music.apple.com/us/album/woodahe/1785139650?i=1785139651"
+    }
+  },
+  {
+    "title": "One Day",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2025,
+    "date": "2025-10-20",
+    "cover": "/assets/discography/one-day.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=aZUdF22iN_I&si=JLMl_Sed_M-YOMI7",
+      "spotify": "https://open.spotify.com/track/1TmUlYvtxNvj8jFEoRsHzw?si=1ea32cbf818a425a",
+      "appleMusic": "https://music.apple.com/us/song/one-day/1846275416"
+    }
+  },
+  {
+    "title": "How I Love You",
+    "artist": "lia",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2026,
+    "date": "2026-01-06",
+    "cover": "/assets/discography/how-i-love-you.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=mcTiFKFvn88&si=94kvBxeE9Xz1uO8g",
+      "spotify": "https://open.spotify.com/track/3eVKqI1WekNvjUrOdap7vp?si=eeec1f0e919245cf",
+      "appleMusic": "https://music.apple.com/br/album/idol-i-pt-6-original-soundtrack-single/1865851540"
+    }
+  },
+
+
+
+  {
+    "title": "Run Away",
+    "artist": "ryujin",
+    "type": "single",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=JkpcLwR3VTk&si=Qdu7bXgtJuZ7IJ12",
+      "spotify": "https://open.spotify.com/track/4e94KIas5maH8RixY26LiN?si=9a014b0e396b4c87",
+      "appleMusic": "https://music.apple.com/us/album/run-away-ryujin/1718647224?i=1718647349"
+    }
+  },
+
+
+
+  {
+    "title": "Mine",
+    "artist": "chaeryeong",
+    "type": "single",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=HnXCezrJEdM&si=CYnk5xSoKkkC5hlO",
+      "spotify": "https://open.spotify.com/track/0vVjP9MvzcaGdy2gKgbGcb?si=64bf5f9cf09942f6",
+      "appleMusic": "https://music.apple.com/us/album/mine-chaeryeong/1718647224?i=1718647353"
+    }
+  },
+  {
+    "title": "Doremifasollatido",
+    "artist": "Leechanhyukvideo",
+    "collabWith":["chaeryeong"],
+    "type": "single",
+    "lang": "kr",
+    "year": 2023,
+    "date": "2023-06-28",
+    "cover": "/assets/discography/doremifasollatido.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=PtuXKkX6Few&si=B1jHVKHDhjHxy9It",
+      "spotify": "https://open.spotify.com/track/5YIq0tkdh2zFCT5vCTGz0U?si=100dc73850ba48b7",
+      "appleMusic": "https://music.apple.com/us/album/doremifasollatido-feat-chaeryeong/1693756765?i=1693756777"
+    }
+  },
+  {
+    "title": "21",
+    "artist": "chaeryeong",
+    "type": "ost",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-12-19",
+    "cover": "/assets/discography/21.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=nEujw62DKbM&si=t971QzbwpD9uSodX",
+      "spotify": "https://open.spotify.com/track/2PPWmaG3n3r0CO42zfpBsd?si=5f090851b78346f2",
+      "appleMusic": "https://music.apple.com/us/album/21/1785166196?i=1785166197"
+    }
+  },
+
+
+
+
+  {
+    "title": "Yet, But",
+    "artist": "yuna",
+    "type": "single",
+    "lang": "kr",
+    "year": 2024,
+    "date": "2024-01-08",
+    "cover": "/assets/discography/born-to-be.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/watch?v=e365KI_DLUc&si=_m7cadayzimlLFi5",
+      "spotify": "https://open.spotify.com/track/5xvvYrp0VcaigWP088jybs?si=9fd29e304f1f48f6",
+      "appleMusic": "https://music.apple.com/us/album/yet-but-yuna/1718647224?i=1718647363"
+    }
+  },
+  {
+    "title": "ICE CREAM",
+    "artist": "yuna",
+    "type": "mini",
+    "lang": "kr",
+    "year": 2026,
+    "date": "2026-03-23",
+    "cover": "/assets/discography/ice-cream.jpg",
+    "links": {
+      "youtube": "https://music.youtube.com/playlist?list=OLAK5uy_mC5gCt1DlnLfwD931sLZWlNWGNcra7Lfw&si=zJBLvu-1ATvSKHYH",
+      "spotify": "https://open.spotify.com/album/39M5nhUfdu80zpwE8NI8FL?si=vX5q2R4YR2mna9VdrnGPsg",
+      "appleMusic": "https://music.apple.com/br/album/ice-cream-ep/1880407965"
+    }
+  }
+
+
+]
