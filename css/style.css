@@ -561,6 +561,10 @@ body {
     height: 380px;
   }
 
+  .hero img {
+    object-position: 47% 20%;  /* empurra para a direita */
+  }
+
   .hero-content {
     padding: 0 20px 0px;
     max-width: 100%;
