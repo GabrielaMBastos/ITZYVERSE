@@ -431,6 +431,7 @@ body {
   padding: 16px 20px 24px;
   transform: translateY(100%);
   transition: 0.3s;
+  visibility: hidden;   
 }
 
 .sheet-handle {
@@ -482,6 +483,7 @@ body {
 
 .bottom-sheet.open .sheet-content {
   transform: translateY(0);
+  visibility: visible;      
 }
 
 /*RESPONSIVIDADE */
