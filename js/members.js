@@ -2,6 +2,7 @@ const members = {
   yeji: {
     stage:    'YEJI',
     hangul:   '황예지 (Hwang Ye-ji)',
+    hangulShort: '예지',
     birth:    'May 26, 2000 · Korean',
     photoBg:  '#1a0812',
     photoTxt: '#3a0a1e',
@@ -25,6 +26,7 @@ const members = {
   lia: {
     stage:    'LIA',
     hangul:   '최지수 (Choi Ji-su)',
+    hangulShort: '리아',
     birth:    'July 21, 2000 · Korean',
     photoBg:  '#0a121a',
     photoTxt: '#0a1f2e',
@@ -46,6 +48,7 @@ const members = {
   ryujin: {
     stage:    'RYUJIN',
     hangul:   '신류진 (Shin Ryu-jin)',
+    hangulShort: '류진',
     birth:    'April 17, 2001 · Korean',
     photoBg:  '#130a1a',
     photoTxt: '#200a30',
@@ -69,6 +72,7 @@ const members = {
   chaeryeong: {
     stage:    'CHAERYEONG',
     hangul:   '이채령 (Lee Chae-ryeong)',
+    hangulShort: '채령',
     birth:    'June 5, 2001 · Korean',
     photoBg:  '#0a1a0f',
     photoTxt: '#0a2a14',
@@ -91,6 +95,7 @@ const members = {
   yuna: {
     stage:    'YUNA',
     hangul:   '신유나 (Shin Yu-na)',
+    hangulShort: '유나',
     birth:    'December 9, 2003 · Korean',
     photoBg:  '#1a1200',
     photoTxt: '#2a1c00',
@@ -210,7 +215,7 @@ function buildCarousel() {
         <div class="carousel-overlay"></div>
         <div class="carousel-label">
           <div class="member-name">${m.stage}</div>
-          <div class="member-hangul">${m.hangul.split('(')[0].trim()}</div>
+          <div class="member-hangul">${m.hangulShort}</div>
         </div>
         <div class="carousel-tap-hint">TAP TO VIEW PROFILE</div>
       </div>
@@ -402,6 +407,11 @@ function init() {
     document.getElementById('selectHint').style.display = 'flex';
   }
 }
+
+memberKeys.forEach((id) => {
+  const m = members[id];
+  console.log(id, m.hangul.split('(')[0].trim().split(' ').pop()); // deve mostrar: 예지, 지수, 류진, 채령, 유나
+})
 
 init();
 window.addEventListener('resize', init);
