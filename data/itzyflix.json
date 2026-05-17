@@ -1,12 +1,13 @@
 {
   "thisIsItzy": [
-    { "img": "../assets/itzyflix/mvs.jpg", "title": "MVs", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaevf1Q-qf-dFbXSY2rtCvFV" },
+    { "img": "../assets/itzyflix/mvs.jpg", "title": "Music Videos", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaevf1Q-qf-dFbXSY2rtCvFV" },
     { "img": "../assets/itzyflix/dance-practice.jpg", "title": "Dance Practice", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafmZl808M6FVCHIn-76MaKs" },
-    { "img": "../assets/itzyflix/itzyitzy.jpg", "title": "ITZYITZY", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTapUR9RLHcO8o1AA2S60QEZ" },
+    { "img": "../assets/itzyflix/itzyitzy.jpg", "title": "ITZY?ITZY!", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTapUR9RLHcO8o1AA2S60QEZ" },
     { "img": "../assets/itzyflix/pre-debut.jpg", "title": "Pre-Debut", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNae7Y33aR3HI2fHsWQYx9mII" },
     { "img": "../assets/itzyflix/letters-midzy.jpg", "title": "Letters to MIDZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadUk3l0_SzyfVZOmF2rt9Sm" },
-    { "img": "../assets/itzyflix/hello2021.jpg", "title": "Hello 2021", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTayyAO5dThICsBzSV0gX341" },
-    { "img": "../assets/itzyflix/hello2022.jpg", "title": "Hello 2022", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTZn0tdkIoYYarCWo9glwQ-Z" },
+    { "img": "../assets/itzyflix/hello2021.jpg", "title": "2TZY Hello 2021", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTayyAO5dThICsBzSV0gX341" },
+    { "img": "../assets/itzyflix/hello2022.jpg", "title": " Vlog Hello 2022", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTZn0tdkIoYYarCWo9glwQ-Z" },
+    { "img": "../assets/itzyflix/hello2026.jpg", "title": "2TZY Hello 2026", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafjod8rv5M8pPMVabuP8HAw&si=sdiAvt4ZoOTs1ab5" },
     { "img": "../assets/itzyflix/2sday.jpg", "title": "2SDAY", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTZ0wDf4WpBHHxRwkJTfytr_" },
     { "img": "../assets/itzyflix/2025hbd.jpg", "title": "2025 HBD", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadWFKPqCQiIgDHXkuA0JIVB" },
     { "img": "../assets/itzyflix/tour-book.jpg", "title": "Tour Book", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTa3X1ZcgyMy-8noHjxu4meE" },
@@ -45,63 +46,9 @@
     { "img": "../assets/itzyflix/coin-karaoke-idols.jpg", "title": "Coin Karaoke with Idols", "url": "https://youtu.be/ejaMcTHIYSc" }
   ],
 
-  "concerts": [
-    {
-      "img": "../assets/itzyflix/checkmate-tour.jpg",
-      "title": "CHECKMATE Tour",
-      "links": [
-        { "title": "Seoul Concert", "url": "https://www.bilibili.tv/en/video/2047370569" },
-        { "title": "Japan Concert", "url": "https://www.bilibili.tv/en/video/4786238988880896" },
-        { "title": "Behind the Scenes & Focus Cam", "url": "https://www.bilibili.tv/en/video/4790062771471360" }
-      ]
-    },
-    {
-      "img": "../assets/itzyflix/bornToBe-tour.jpg",
-      "title": "BORN TO BE Tour",
-      "links": [
-        { "title": "Seoul Concert", "url": "https://www.bilibili.tv/en/video/4790379791647744" },
-        { "title": "Japan Concert", "url": "https://www.bilibili.tv/en/video/4791390117822976" }
-      ]
-    },
-    {
-      "img": "../assets/itzyflix/first-fan-meeting.jpg",
-      "title": "1st Fan Meeting",
-      "links": [
-        { "title": "Part 1", "url": "https://www.bilibili.tv/en/video/2044230813" },
-        { "title": "Part 2", "url": "https://www.bilibili.tv/en/video/2043349110" }
-      ]
-    },
-    {
-      "img": "../assets/itzyflix/second-fan-meeting.jpg",
-      "title": "2nd Fan Meeting",
-      "links": [
-        { "title": "Part 1", "url": "https://www.bilibili.tv/en/video/2049695783" },
-        { "title": "Part 2", "url": "https://www.bilibili.tv/en/video/2042753458" }
-      ]
-    },
-    { "img": "../assets/itzyflix/third-fan-meeting.jpg", "title": "3rd Fan Meeting", "url": "https://www.bilibili.tv/en/video/4793225902690304" },
-    { "img": "../assets/itzyflix/fourth-fan-meeting.jpg", "title": "4th Fan Meeting", "url": "https://www.bilibili.tv/en/video/4796891410864128" },
-    { "img": "../assets/itzyflix/guessWho-showcase.jpg", "title": "Guess Who Showcase", "url": "https://youtu.be/8rOIrzYN-cw" },
-    { "img": "../assets/itzyflix/crazyInLove-showcase.jpg", "title": "Crazy In Love Showcase", "url": "https://youtu.be/NEwgzCeLEnc" },
-    { "img": "../assets/itzyflix/killMyDoubt-showcase.jpg", "title": "Kill My Doubt Showcase", "url": "https://youtu.be/B6WlE_uMy9E" },
-    { "img": "../assets/itzyflix/first-fan-Party.jpg", "title": "1st Fan Party", "url": "https://www.bilibili.tv/en/video/2041383143" },
-    { "img": "../assets/itzyflix/we-all-are-one.jpg", "title": "We All Are One", "url": "https://www.bilibili.tv/en/video/2048983356" }
-  ],
-
-  "more": [
-    { "img": "../assets/itzyflix/cheer-guide.jpg", "title": "Cheer Guide", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNads2ODhxFCTYREYEAL4tH7d" },
-    { "img": "../assets/itzyflix/interviews.jpg", "title": "Interviews", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafYxGEXhkVTWzwSlPJanxvM" },
-    { "img": "../assets/itzyflix/mv-reaction.jpg", "title": "MV Reaction", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaduDdUhY3UjZI8iCRJRJAaz" },
-    { "img": "../assets/itzyflix/behind.jpg", "title": "Behind the Scenes", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaecWTDb-cVfje0fqNwufTOO" },
-    { "img": "../assets/itzyflix/seasons-greetings-2022.jpg", "title": "Seasons Greetings 2022", "url": "https://www.bilibili.tv/en/video/2040358496" },
-    { "img": "../assets/itzyflix/seasons-greetings-2023.jpg", "title": "Seasons Greetings 2023", "url": "https://www.bilibili.tv/en/video/2046167798" },
-    { "img": "../assets/itzyflix/seasons-greetings-2024.jpg", "title": "Seasons Greetings 2024", "url": "https://www.bilibili.tv/en/video/4791389787127808" },
-    { "img": "../assets/itzyflix/2021하드털이.jpg", "title": "2021 하드털이", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTZKQi3LRRXAf8GPKQLHcL6n" }
-  ],
-
   "webContent": [
-    { "img": "../assets/itzyflix/itzy-in-korea.jpg", "title": "ITZY Korea", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNacmT549s23el9EO_xRlG2SU" },
-    { "img": "../assets/itzyflix/paris-et-itzy.jpg", "title": "Paris ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejWn3ZtKgIAmnShMahsX10" },
+    { "img": "../assets/itzyflix/itzy-in-korea.jpg", "title": "ITZY in Korea", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNacmT549s23el9EO_xRlG2SU" },
+    { "img": "../assets/itzyflix/paris-et-itzy.jpg", "title": "Paris et ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejWn3ZtKgIAmnShMahsX10" },
     { "img": "../assets/itzyflix/la-itzy.jpg", "title": "LA ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadaSvC1g7dRD_1kwTkO6Hjq" },
     { "img": "../assets/itzyflix/cozy-house.jpg", "title": "Cozy House", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafiJt3VTAWnFG9pQ6dLMzXC" },
     { "img": "../assets/itzyflix/my-favorite-itzy.jpg", "title": "My Favorite ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaf09WuOkAYvGrO2H4V4VUUX" },
@@ -124,7 +71,7 @@
     { "img": "../assets/itzyflix/bu-quest.jpg", "title": "Bu Quest", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNae780aywRyEwLlN9dW1VAcG" },
     { "img": "../assets/itzyflix/chaeryeong-make-friends.jpg", "title": "Chaeryeong Makes Friends", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafPlFAfBUw5Is9lCGZtU49O" },
     { "img": "../assets/itzyflix/react.jpg", "title": "React", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaelSDoDhY4t80bzzuI-aJf1" },
-    { "img": "../assets/itzyflix/alchohol-diary.jpg", "title": "Alcohol Diary", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafMA5qM8Y56yQT9RM9-kGrl" },
+    { "img": "../assets/itzyflix/alchohol-diary.jpg", "title": "My Alcohol Diary", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafMA5qM8Y56yQT9RM9-kGrl" },
     { "img": "../assets/itzyflix/idol-room.jpg", "title": "Idol Room", "url": "https://www.bilibili.tv/en/video/2048754505" },
     { "img": "../assets/itzyflix/weekly-idol.jpg", "title": "Weekly Idol", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaeCtyazqraNyH5oME8EWABL" },
     { "img": "../assets/itzyflix/eunchaes-stardiary.jpg", "title": "Eunchae's Star Diary", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadkLPhWfMohQNFmJjCzGIDR" },
@@ -196,6 +143,7 @@
     { "img": "../assets/itzyflix/song-association.jpg", "title": "Song Association", "url": "https://youtu.be/3ys2QoyXbxU" },
     { "img": "../assets/itzyflix/showterview-jessi.jpg", "title": "Showterview with Jessi", "url": "https://youtu.be/Xoy4Wy2zeHk" },
     { "img": "../assets/itzyflix/dingo-story.jpg", "title": "Dingo Story", "url": "https://youtu.be/CkYznEznhvc" },
+        { "img": "../assets/itzyflix/npop.jpg", "title": "NPOP", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNad4ZlwesfubBiGfOdUicbU9&si=58EEJ7SXtQDYiR12" },
     { "img": "../assets/itzyflix/dare-or-dare.jpg", "title": "Dare or Dare", "url": "https://youtu.be/Vjm1KiODFu0" },
     { "img": "../assets/itzyflix/superlatives-challenge.jpg", "title": "Superlatives Challenge", "url": "https://youtu.be/n9Lq_eX-IV4" },
     { "img": "../assets/itzyflix/k-star-next-door.jpg", "title": "K-Star Next Door", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafbJLMa5J4FOFgBv9Etr6Zd" },
@@ -221,6 +169,74 @@
     { "img": "../assets/itzyflix/byob.jpg", "title": "BYOB", "url": "https://youtu.be/l3-dWiJPeq0" },
     { "img": "../assets/itzyflix/byuls-door-locking.jpg", "title": "Byul's Door Locking", "url": "https://youtu.be/wNqJ4w08Mls" },
     { "img": "../assets/itzyflix/hello-chaeyeon.jpg", "title": "Hello Chaeyeon", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNad0G0B5chDgaZLUj1Cf7JLy" },
-    { "img": "../assets/itzyflix/re-paper.jpg", "title": "Re:paper", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejOI-ln3S4barKvVvKIk6s" }
+    { "img": "../assets/itzyflix/re-paper.jpg", "title": "Re:paper", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejOI-ln3S4barKvVvKIk6s" },
+    { "img": "../assets/itzyflix/zip-daesung.jpg", "title": "Zip Daesung", "url": "https://youtu.be/SaFTT7uFvpY?si=wrMqf4wCJ1LGIujv" },
+    { "img": "../assets/itzyflix/domestic-gift-factory.jpg", "title": "Domestic Gift Factory", "url": "https://youtu.be/zuRp9yNWB1M?si=sYATOYfIb05LQG9M" },
+    { "img": "../assets/itzyflix/Euratchacha-Bapchaha.jpg", "title": "Euratchacha Bapchacha", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNad-M2JDkG8zHzE5xYVcFu-F&si=7hIAs0ztLcLlkd5r" },
+    { "img": "../assets/itzyflix/jyp-4-earth.jpg", "title": "JYP 4 Earth", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadrFtIrT1LSGbNoLN2JZfLE&si=ydzfwKoTrJpOZuvw" },
+    { "img": "../assets/itzyflix/lets-eat.jpg", "title": "Let's Eat", "url": "https://youtu.be/kis-xiXRHgQ?si=L2InB_YZ3OJNCZht" },
+    { "img": "../assets/itzyflix/natty-house.jpg", "title": "Natty House", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNacXL7ZRQgnTQ64Qxf3IWS8-&si=g9y72TSgz__ku0xP" },
+    { "img": "../assets/itzyflix/tailored-chat.jpg", "title": "Tailored Chat", "url": "https://youtu.be/kB2XsAQgt2I?si=xnI1M07Fz7FTS0CM" },
+    { "img": "../assets/itzyflix/closet-battle.jpg", "title": "Closet Battle", "url": "https://youtu.be/8BdDncDMP70?si=LlLKKac-hKS-1Pwa" },
+    { "img": "../assets/itzyflix/yong-tarot.jpg", "title": "Yong Tarot", "url": "https://youtu.be/wpeuA5ck7dY?si=FM7PcSp7RKgf-03I" },
+    { "img": "../assets/itzyflix/lia-choi.jpg", "title": "Lia Choi", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafZrtXo-zI7p2ptvD0sXZBB&si=u6LXow8c669o-S2Y" },
+    { "img": "../assets/itzyflix/tzuyang-mukbang.jpg", "title": "Tzuyang Mukbang", "url": "https://youtu.be/tX4IaSPGylw?si=MTNzu26rdLf0DVhE" },
+    { "img": "../assets/itzyflix/call-me-baby.jpg", "title": "Call Me Baby", "url": "https://youtu.be/vCAQNC8mzX0?si=-75YcDl82eXRECCS" },
+    { "img": "../assets/itzyflix/street-magic-shop.jpg", "title": "Street Magic Shop", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadKy2tsniYdWuIjK6ZlRI50&si=xUIch37Yc0m2UyHi" }
+    
+  ],
+
+  "concerts": [
+    {
+      "img": "../assets/itzyflix/checkmate-tour.jpg",
+      "title": "CHECKMATE Tour",
+      "links": [
+        { "title": "Seoul Concert", "url": "https://www.bilibili.tv/en/video/2047370569" },
+        { "title": "Japan Concert", "url": "https://www.bilibili.tv/en/video/4786238988880896" },
+        { "title": "Behind the Scenes & Focus Cam", "url": "https://www.bilibili.tv/en/video/4790062771471360" }
+      ]
+    },
+    {
+      "img": "../assets/itzyflix/bornToBe-tour.jpg",
+      "title": "BORN TO BE Tour",
+      "links": [
+        { "title": "Seoul Concert", "url": "https://www.bilibili.tv/en/video/4790379791647744" },
+        { "title": "Japan Concert", "url": "https://www.bilibili.tv/en/video/4791390117822976" }
+      ]
+    },
+    {
+      "img": "../assets/itzyflix/first-fan-meeting.jpg",
+      "title": "1st Fan Meeting",
+      "links": [
+        { "title": "Part 1", "url": "https://www.bilibili.tv/en/video/2044230813" },
+        { "title": "Part 2", "url": "https://www.bilibili.tv/en/video/2043349110" }
+      ]
+    },
+    {
+      "img": "../assets/itzyflix/second-fan-meeting.jpg",
+      "title": "2nd Fan Meeting",
+      "links": [
+        { "title": "Part 1", "url": "https://www.bilibili.tv/en/video/2049695783" },
+        { "title": "Part 2", "url": "https://www.bilibili.tv/en/video/2042753458" }
+      ]
+    },
+    { "img": "../assets/itzyflix/third-fan-meeting.jpg", "title": "3rd Fan Meeting", "url": "https://www.bilibili.tv/en/video/4793225902690304" },
+    { "img": "../assets/itzyflix/fourth-fan-meeting.jpg", "title": "4th Fan Meeting", "url": "https://www.bilibili.tv/en/video/4796891410864128" },
+    { "img": "../assets/itzyflix/guessWho-showcase.jpg", "title": "Guess Who Showcase", "url": "https://youtu.be/8rOIrzYN-cw" },
+    { "img": "../assets/itzyflix/crazyInLove-showcase.jpg", "title": "Crazy In Love Showcase", "url": "https://youtu.be/NEwgzCeLEnc" },
+    { "img": "../assets/itzyflix/killMyDoubt-showcase.jpg", "title": "Kill My Doubt Showcase", "url": "https://youtu.be/B6WlE_uMy9E" },
+    { "img": "../assets/itzyflix/first-fan-Party.jpg", "title": "1st Fan Party", "url": "https://www.bilibili.tv/en/video/2041383143" },
+    { "img": "../assets/itzyflix/we-all-are-one.jpg", "title": "We All Are One", "url": "https://www.bilibili.tv/en/video/2048983356" }
+  ],
+
+  "more": [
+    { "img": "../assets/itzyflix/cheer-guide.jpg", "title": "Cheer Guide", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNads2ODhxFCTYREYEAL4tH7d" },
+    { "img": "../assets/itzyflix/interviews.jpg", "title": "Interviews", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafYxGEXhkVTWzwSlPJanxvM" },
+    { "img": "../assets/itzyflix/mv-reaction.jpg", "title": "MV Reaction", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaduDdUhY3UjZI8iCRJRJAaz" },
+    { "img": "../assets/itzyflix/behind.jpg", "title": "Behind the Scenes", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaecWTDb-cVfje0fqNwufTOO" },
+    { "img": "../assets/itzyflix/seasons-greetings-2022.jpg", "title": "Seasons Greetings 2022", "url": "https://www.bilibili.tv/en/video/2040358496" },
+    { "img": "../assets/itzyflix/seasons-greetings-2023.jpg", "title": "Seasons Greetings 2023", "url": "https://www.bilibili.tv/en/video/2046167798" },
+    { "img": "../assets/itzyflix/seasons-greetings-2024.jpg", "title": "Seasons Greetings 2024", "url": "https://www.bilibili.tv/en/video/4791389787127808" },
+    { "img": "../assets/itzyflix/2021하드털이.jpg", "title": "2021 하드털이", "url": "https://youtube.com/playlist?list=PLnje7IHR9mTZKQi3LRRXAf8GPKQLHcL6n" }
   ]
 }

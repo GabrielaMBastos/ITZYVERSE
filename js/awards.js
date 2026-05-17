@@ -1,9 +1,7 @@
 
-// ===== HAMBURGER =====
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 const mobileMenu   = document.getElementById('mobileMenu');
 
-// posiciona o menu abaixo da nav dinamicamente
 const navHeight = document.querySelector('.nav').offsetHeight;
 mobileMenu.style.top = navHeight + 'px';
 
@@ -36,18 +34,11 @@ if (hamburgerBtn && mobileMenu) {
 }
 
 
-/* =========================================
-   ITZYVERSE — awards.js
-   Lógica da página. Os dados ficam em awards.json.
-   ========================================= */
-
 let data = {};
 let currentYear = 'all';
 let currentSolo = '';
 
-/* =========================================
-   LOAD JSON
-   ========================================= */
+
 async function loadData() {
   const res = await fetch('../data/awards.json');
   data      = await res.json();
@@ -55,9 +46,6 @@ async function loadData() {
   renderAll();
 }
 
-/* =========================================
-   HELPERS
-   ========================================= */
 function buildAwardCard(ceremony, wins) {
   const items = wins.map(w => `<div class="award-item">${w}</div>`).join('');
   return `
@@ -68,16 +56,12 @@ function buildAwardCard(ceremony, wins) {
   `;
 }
 
-/* =========================================
-   RENDER — GROUP AWARDS
-   ========================================= */
 function renderGroup() {
   const years    = Object.keys(data.groupAwards).map(Number).sort((a, b) => a - b);
   const totalAll = years.reduce((s, y) => s + data.groupAwards[y].count, 0);
 
   document.getElementById('totalCount').textContent = totalAll + '+';
 
-  /* Year filter pills */
   const filterEl = document.getElementById('yearFilter');
   filterEl.innerHTML = `
     <button class="ypill active" data-year="all">ALL YEARS · ${totalAll}</button>
@@ -95,7 +79,6 @@ function renderGroup() {
     updateGroupVisibility();
   });
 
-  // Cria select para mobile
 const selectEl = document.getElementById('yearFilterSelect');
 if (selectEl) {
   selectEl.innerHTML = `
@@ -107,7 +90,7 @@ if (selectEl) {
 
   selectEl.addEventListener('change', (e) => {
     currentYear = e.target.value;
-    // sincroniza pills desktop
+
     document.querySelectorAll('.ypill').forEach(b => {
       b.classList.toggle('active', b.dataset.year === currentYear);
     });
@@ -115,7 +98,6 @@ if (selectEl) {
   });
 }
 
-  /* Year blocks */
   document.getElementById('groupGrid').innerHTML = years.map(y => {
     const cards = data.groupAwards[y].ceremonies
       .map(c => buildAwardCard(c.ceremony, c.wins))
@@ -138,9 +120,6 @@ function updateGroupVisibility() {
   });
 }
 
-/* =========================================
-   RENDER — MUSIC SHOW WINS
-   ========================================= */
 function renderShows() {
   const total = data.showWins.reduce((s, w) => s + w.wins, 0);
   document.getElementById('showTotal').textContent = total;
@@ -157,9 +136,6 @@ function renderShows() {
     `).join('');
 }
 
-/* =========================================
-   RENDER — SOLO AWARDS
-   ========================================= */
 function renderSolo() {
   const tabsEl = document.getElementById('soloTabs');
   tabsEl.innerHTML = data.soloAwards
@@ -196,9 +172,6 @@ function updateSoloVisibility() {
   });
 }
 
-/* =========================================
-   MAIN TABS
-   ========================================= */
 function initTabs() {
   document.querySelectorAll('.mtab').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -210,9 +183,6 @@ function initTabs() {
   });
 }
 
-/* =========================================
-   INIT
-   ========================================= */
 function renderAll() {
   renderGroup();
   renderShows();

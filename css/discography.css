@@ -17,10 +17,10 @@ body {
 }
 
 .page-main {
-  flex: 1; /* cresce para preencher o espaço disponível */
+  flex: 1;
 }
 
-/* ===== NAV ===== */
+/*  NAV  */
 .nav {
   display: flex;
   align-items: center;
@@ -70,7 +70,24 @@ body {
   display: none;
 }
 
-/* ===== PAGE HEADER ===== */
+.mobile-menu {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 300px;
+}
+
+/*  PAGE HEADER  */
 .page-header {
   padding: 36px 40px 0;
 }
@@ -106,7 +123,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== FILTERS (desktop) ===== */
+/*  FILTERS */
 .filter-section {
   padding: 28px 40px 0;
 }
@@ -196,7 +213,7 @@ body {
   border-color: #e83e8c;
 }
 
-/* ===== RESULTS BAR ===== */
+/*  RESULTS BAR  */
 .results-bar {
   display: flex;
   align-items: center;
@@ -225,12 +242,12 @@ body {
   border-color: #e83e8c;
 }
 
-/* ===== MOBILE FILTER BAR (oculta no desktop) ===== */
+/*  MOBILE FILTER BAR  */
 .mobile-filter-bar {
   display: none;
 }
 
-/* ===== FILTER DRAWER (bottom sheet mobile) ===== */
+/*  FILTER DRAWER */
 .filter-drawer {
   position: fixed;
   inset: 0;
@@ -314,7 +331,7 @@ body {
   margin-bottom: 12px;
 }
 
-/* Pills dentro do drawer — maiores para touch */
+/* Pills dentro do drawer*/
 .drawer-pills {
   display: flex;
   flex-wrap: wrap;
@@ -363,7 +380,7 @@ body {
   background: #c72d78;
 }
 
-/* ===== GRID ===== */
+/*  GRID  */
 .disc-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -371,7 +388,7 @@ body {
   padding: 20px 40px 60px;
 }
 
-/* ===== CARD ===== */
+/*  CARD  */
 .d-card {
   background: #141414;
   border: 1px solid #1e1e1e;
@@ -516,7 +533,7 @@ body {
   font-style: italic;
 }
 
-/* ===== EMPTY STATE ===== */
+/*  EMPTY STATE  */
 .empty-state {
   text-align: center;
   padding: 80px 40px;
@@ -532,7 +549,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== FOLLOW ===== */
+/*  FOLLOW  */
 .follow-row {
   display: flex;
   align-items: center;
@@ -571,7 +588,7 @@ body {
   color: #e83e8c;
 }
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 .flix-footer {
   padding: 20px;
   text-align: center;
@@ -584,11 +601,9 @@ body {
   text-decoration: none;
 }
 
-/* =========================================
-   RESPONSIVIDADE
-========================================= */
+/* RESPONSIVIDADE*/
 
-/* ===== TABLET (769px–1024px) ===== */
+/*   (769px–1024px)  */
 @media (max-width: 1024px) {
   .page-header {
     padding: 28px 28px 0;
@@ -615,7 +630,7 @@ body {
   }
 }
 
-/* ===== MOBILE (até 768px) ===== */
+/*  MOBILE (até 768px)  */
 @media (max-width: 768px) {
   /* NAV */
   .nav {
@@ -673,7 +688,6 @@ body {
     font-size: 9px;
   }
 
-  /* Esconde filtros desktop */
   .filter-section {
     display: none;
   }
@@ -681,7 +695,6 @@ body {
     display: none;
   }
 
-  /* Mostra filter bar mobile */
   .mobile-filter-bar {
     display: flex;
     align-items: center;
@@ -696,7 +709,6 @@ body {
     display: none;
   }
 
-  /* Botão de artista ativo */
   .mfb-artist {
     display: flex;
     align-items: center;
@@ -717,7 +729,6 @@ body {
     transition: background 0.2s;
   }
 
-  /* Botão de filtros com badge */
   .mfb-filters {
     display: flex;
     align-items: center;
@@ -761,7 +772,6 @@ body {
     display: flex;
   }
 
-  /* Tags de filtros ativos */
   .mfb-active-tag {
     display: flex;
     align-items: center;
@@ -847,7 +857,7 @@ body {
   }
 }
 
-/* ===== SMALL MOBILE (até 480px) ===== */
+/*  SMALL MOBILE (até 480px)  */
 @media (max-width: 480px) {
   .page-title {
     font-size: 24px;
@@ -871,20 +881,4 @@ body {
   }
 }
 
-/* Mobile menu fixo na tela */
-.mobile-menu {
-  position: fixed;
-  top: 53px; /* altura da nav */
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background: #0d0d0d;
-  border-bottom: 1px solid #1e1e1e;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
 
-.mobile-menu.open {
-  max-height: 300px;
-}

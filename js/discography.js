@@ -1,6 +1,4 @@
-/* =========================================
-   LABELS
-========================================= */
+
 const typeLabels = {
   album: "Full Album",
   mini: "Mini Album",
@@ -24,22 +22,15 @@ const artistLabels = {
   yuna: "YUNA",
 };
 
-/* =========================================
-   STATE
-========================================= */
 let currentArtist = "all";
 let currentCat    = "all";
 let currentLang   = "all";
 let currentSort   = "newest";
 let releases      = [];
 
-// estado temporário do drawer (antes de aplicar)
 let drawerCat  = "all";
 let drawerLang = "all";
 
-/* =========================================
-   HELPERS
-========================================= */
 function formatName(name) {
   return artistLabels[name] || name.replaceAll("_", " ").toUpperCase();
 }
@@ -63,12 +54,10 @@ function removeDuplicates(arr) {
 
 const isMobileView = () => window.innerWidth <= 768;
 
-// ===== HAMBURGER =====
 
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 const mobileMenu   = document.getElementById('mobileMenu');
 
-// posiciona o menu abaixo da nav dinamicamente
 const navHeight = document.querySelector('.nav').offsetHeight;
 mobileMenu.style.top = navHeight + 'px';
 
@@ -100,15 +89,10 @@ if (hamburgerBtn && mobileMenu) {
   });
 }
 
-/* =========================================
-   FILTER DRAWER — abrir / fechar
-========================================= */
 function openDrawer() {
-  // sincroniza estado temporário com o atual
   drawerCat  = currentCat;
   drawerLang = currentLang;
 
-  // marca pills do drawer conforme estado atual
   document.querySelectorAll(".drawer-pill[data-cat]").forEach((p) => {
     p.classList.toggle("active", p.dataset.cat === drawerCat);
   });
@@ -144,15 +128,10 @@ function clearDrawer() {
   });
 }
 
-/* =========================================
-   MOBILE FILTER BAR — atualiza
-========================================= */
 function updateMobileFilterBar() {
-  // botão artista
   const artistBtn = document.getElementById("mfbArtist");
   if (artistBtn) artistBtn.textContent = artistLabels[currentArtist] + " ▾";
 
-  // badge e botão filtros
   const filtersBtn = document.getElementById("mfbFilters");
   const badge      = document.getElementById("mfbBadge");
   const activeCount = (currentCat !== "all" ? 1 : 0) + (currentLang !== "all" ? 1 : 0);
@@ -160,7 +139,6 @@ function updateMobileFilterBar() {
   if (filtersBtn) filtersBtn.classList.toggle("has-filters", activeCount > 0);
   if (badge) badge.textContent = activeCount;
 
-  // tags de filtros ativos
   const tagsEl = document.getElementById("mfbTags");
   if (!tagsEl) return;
   tagsEl.innerHTML = "";
@@ -192,9 +170,6 @@ function updateMobileFilterBar() {
   }
 }
 
-/* =========================================
-   RENDER GRID
-========================================= */
 function renderGrid() {
   const grid    = document.getElementById("discGrid");
   const empty   = document.getElementById("emptyState");
@@ -303,9 +278,6 @@ function renderGrid() {
     .join("");
 }
 
-/* =========================================
-   EVENTS — desktop filters
-========================================= */
 document.getElementById("artistTabs")?.addEventListener("click", (e) => {
   const btn = e.target.closest(".atab");
   if (!btn) return;
@@ -339,17 +311,13 @@ document.getElementById("sortSelect")?.addEventListener("change", (e) => {
   renderGrid();
 });
 
-/* =========================================
-   EVENTS — mobile filter bar
-========================================= */
+
 document.getElementById("mfbArtist")?.addEventListener("click", () => {
-  // abre um mini sheet para artista, ou cicla — aqui usamos o drawer com só artistas
   openArtistSheet();
 });
 
 document.getElementById("mfbFilters")?.addEventListener("click", openDrawer);
 
-/* Sheet de artista (simples — cicla pelos artistas) */
 function openArtistSheet() {
   const sheet = document.getElementById("artistSheet");
   if (sheet) {
@@ -371,7 +339,6 @@ document.getElementById("artistSheet")?.addEventListener("click", (e) => {
   if (!btn) return;
   currentArtist = btn.dataset.artist;
 
-  // sincroniza desktop tabs também
   document.querySelectorAll(".atab").forEach((b) => {
     b.classList.toggle("active", b.dataset.artist === currentArtist);
   });
@@ -387,11 +354,7 @@ document.getElementById("artistSheet")?.addEventListener("click", (e) => {
 
 document.getElementById("artistSheetOverlay")?.addEventListener("click", closeArtistSheet);
 
-/* =========================================
-   EVENTS — drawer pills
-========================================= */
 document.getElementById("filterDrawer")?.addEventListener("click", (e) => {
-  // overlay fecha
   if (e.target === e.currentTarget || e.target.classList.contains("drawer-overlay")) {
     closeDrawer();
     return;
@@ -419,9 +382,6 @@ document.getElementById("drawerApply")?.addEventListener("click", applyDrawer);
 document.getElementById("drawerClear")?.addEventListener("click", clearDrawer);
 document.getElementById("drawerOverlay")?.addEventListener("click", closeDrawer);
 
-/* =========================================
-   FETCH
-========================================= */
 fetch("../data/discography.json")
   .then((res) => res.json())
   .then((data) => {

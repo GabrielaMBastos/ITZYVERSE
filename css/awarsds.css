@@ -1,8 +1,5 @@
-/* =========================================
-   ITZYVERSE — awards.css
-   ========================================= */
 
-/* ---------- RESET & BASE ---------- */
+/*  RESET & BASE  */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -23,7 +20,7 @@ body {
   flex: 1; /* cresce para preencher o espaço disponível */
 }
 
-/* ---------- NAV ---------- */
+/*  NAV  */
 .nav {
   display: flex;
   align-items: center;
@@ -73,7 +70,28 @@ body {
   padding-bottom: 2px;
 }
 
-/* ---------- PAGE HEADER ---------- */
+.mobile-menu {
+  position: fixed;
+  top: 53px; 
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 300px;
+}
+
+.nav-hamburger { display: none; }
+.mobile-menu   { display: none; }
+
+
+/*  PAGE HEADER  */
 .page-header {
   padding: 36px 40px 0;
 }
@@ -119,7 +137,7 @@ body {
   margin-top: 14px;
 }
 
-/* ---------- MAIN TABS ---------- */
+/*  MAIN TABS  */
 .main-tabs {
   display: flex;
   gap: 0;
@@ -151,7 +169,7 @@ body {
   border-bottom: 2px solid #e83e8c;
 }
 
-/* ---------- TAB CONTENT ---------- */
+/*  TAB CONTENT  */
 .tab-content {
   display: none;
   padding: 28px 40px 60px;
@@ -159,7 +177,10 @@ body {
 
 .tab-content.visible { display: block; }
 
-/* ---------- YEAR FILTER ---------- */
+.tab-short { display: none; }
+.tab-full  { display: inline; }
+
+/*  YEAR FILTER  */
 .year-filter {
   display: flex;
   gap: 6px;
@@ -190,7 +211,7 @@ body {
   border-color: #e83e8c;
 }
 
-/* ---------- YEAR BLOCK ---------- */
+/*  YEAR BLOCK  */
 .year-block {
   margin-bottom: 36px;
   display: none;
@@ -222,14 +243,14 @@ body {
   text-transform: uppercase;
 }
 
-/* ---------- AWARDS GRID ---------- */
+/*  AWARDS GRID  */
 .awards-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
 
-/* ---------- AWARD CARD ---------- */
+/*  AWARD CARD  */
 .award-card {
   background: #111;
   border: 1px solid #1e1e1e;
@@ -266,7 +287,7 @@ body {
   flex-shrink: 0;
 }
 
-/* ---------- MUSIC SHOW WINS ---------- */
+/*  MUSIC SHOW WINS  */
 .show-summary {
   display: flex;
   align-items: baseline;
@@ -341,7 +362,7 @@ body {
   margin-top: 4px;
 }
 
-/* ---------- SOLO AWARDS ---------- */
+/*  SOLO AWARDS  */
 .solo-tabs {
   display: flex;
   gap: 8px;
@@ -442,16 +463,9 @@ body {
   display: none;
 }
 
-/* =========================================
-   RESPONSIVIDADE — AWARDS
-   Adicionar no final do awards.css
-========================================= */
+/*RESPONSIVIDADE*/
 
-/* Hamburger e mobile menu ocultos por padrão */
-.nav-hamburger { display: none; }
-.mobile-menu   { display: none; }
-
-/* ===== TABLET (769px–1024px) ===== */
+/*   (769px–1024px)  */
 @media (max-width: 1024px) {
 
   .page-header {
@@ -487,7 +501,7 @@ body {
   }
 }
 
-/* ===== MOBILE (até 768px) ===== */
+/*  MOBILE (até 768px)  */
 @media (max-width: 768px) {
 
   /* NAV */
@@ -578,6 +592,9 @@ body {
   .tab-content {
     padding: 20px 20px 40px;
   }
+
+  .tab-short { display: inline; }
+  .tab-full  { display: none; }
 
   /* YEAR FILTER */
   .year-filter {
@@ -693,12 +710,10 @@ body {
     gap: 16px;
   }
 
-  /* esconde as pills no mobile */
 .year-filter {
   display: none;
 }
 
-/* mostra o select nativo */
 .year-filter-select {
   display: block;
   width: 100%;
@@ -725,7 +740,7 @@ body {
 }
 }
 
-/* ===== SMALL MOBILE (até 480px) ===== */
+/*  SMALL MOBILE (até 480px)  */
 @media (max-width: 480px) {
 
   .page-title {
@@ -754,20 +769,3 @@ body {
   }
 }
 
-/* Mobile menu fixo na tela */
-.mobile-menu {
-  position: fixed;
-  top: 53px; /* altura da nav */
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background: #0d0d0d;
-  border-bottom: 1px solid #1e1e1e;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.mobile-menu.open {
-  max-height: 300px;
-}

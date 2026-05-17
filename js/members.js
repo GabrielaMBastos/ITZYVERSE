@@ -118,12 +118,10 @@ const memberKeys = ['yeji', 'lia', 'ryujin', 'chaeryeong', 'yuna'];
 let currentCarouselIndex = 0;
 const isMobile = () => window.innerWidth <= 1024;
 
-// ===== HAMBURGER =====
 
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 const mobileMenu   = document.getElementById('mobileMenu');
 
-// posiciona o menu abaixo da nav dinamicamente
 const navHeight = document.querySelector('.nav').offsetHeight;
 mobileMenu.style.top = navHeight + 'px';
 
@@ -155,7 +153,6 @@ if (hamburgerBtn && mobileMenu) {
   });
 }
 
-// ===== CARROSSEL =====
 let isScrollingByButton = false;
 let scrollEndTimer = null;
 
@@ -177,13 +174,11 @@ function goToSlide(index, openPanel = false) {
     if (slide) {
       isScrollingByButton = true;
 
-      // limpa timer anterior se ainda estava rodando
       clearTimeout(scrollEndTimer);
 
       const targetScroll = slide.offsetLeft - (track.offsetWidth / 2) + (slide.offsetWidth / 2);
       track.scrollTo({ left: targetScroll, behavior: 'smooth' });
 
-      // reativa o listener após a animação terminar (~400ms)
       scrollEndTimer = setTimeout(() => {
         isScrollingByButton = false;
       }, 400);
@@ -252,7 +247,6 @@ function buildCarousel() {
     dot.addEventListener('click', () => goToSlide(Number(dot.dataset.index)));
   });
 
-  // Só atualiza dots pelo scroll se NÃO foi acionado por botão
   track.addEventListener('scroll', () => {
     if (isScrollingByButton) return;
 
@@ -277,7 +271,6 @@ function buildCarousel() {
   goToSlide(0, false);
 }
 
-// ===== SELECT MEMBER =====
 function selectMember(id) {
   const m = members[id];
   if (!m) return;
@@ -340,7 +333,6 @@ function selectMember(id) {
   }
 }
 
-// ===== INIT + RESIZE =====
 let wasCarousel = null;
 
 function init() {

@@ -1,9 +1,7 @@
-// ===== HAMBURGER =====
 
     const hamburgerBtn = document.getElementById('hamburgerBtn');
 const mobileMenu   = document.getElementById('mobileMenu');
 
-// posiciona o menu abaixo da nav dinamicamente
 const navHeight = document.querySelector('.nav').offsetHeight;
 mobileMenu.style.top = navHeight + 'px';
     hamburgerBtn.addEventListener('click', () => {
@@ -31,24 +29,19 @@ mobileMenu.style.top = navHeight + 'px';
       });
     });
 
-    // ===== BOTTOM TAB BAR =====
-    // Syncs the bottom tab bar with the desktop cat-nav buttons
     const tabItems = document.querySelectorAll('.tab-item');
 
     tabItems.forEach(tab => {
       tab.addEventListener('click', () => {
         const section = tab.dataset.section;
 
-        // update active state on tab bar
         tabItems.forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
 
-        // also sync desktop cat-nav
         document.querySelectorAll('.cnav').forEach(b => {
           b.classList.toggle('active', b.dataset.section === section);
         });
 
-        // trigger the same logic as desktop buttons
         document.getElementById('searchInput').value = '';
         if (typeof setActiveButton === 'function') setActiveButton(section);
         if (section === 'home') {
@@ -57,12 +50,10 @@ mobileMenu.style.top = navHeight + 'px';
           if (typeof renderCategory === 'function') renderCategory(section);
         }
 
-        // scroll to top smoothly
         window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     });
 
-    // Keep tab bar in sync when desktop nav is used
     document.querySelectorAll('.cnav').forEach(btn => {
       btn.addEventListener('click', () => {
         const section = btn.dataset.section;
@@ -73,10 +64,8 @@ mobileMenu.style.top = navHeight + 'px';
     });
 
 
-// ================= DATA =================
 let data = {};
 
-// ================= ELEMENTS =================
 const mainContent = document.getElementById("mainContent");
 const modal = document.getElementById("modal");
 const modalTitle = document.getElementById("modalTitle");
@@ -86,22 +75,19 @@ const modalClose = document.getElementById("modalClose");
 const searchInput = document.getElementById("searchInput");
 const buttons = document.querySelectorAll(".cnav");
 
-// ================= CONFIG =================
 const LIMIT = 12;
 const SCROLL_AMOUNT = 800;
 const FALLBACK_IMG = "../assets/itzyflix.png";
 
-// ================= CATEGORY LABELS =================
 const categoryNames = {
   thisIsItzy: "This is ITZY",
   performances: "Performances",
   covers: "Covers & Live Music",
-  concerts: "Concerts",
   webContent: "Variety Shows",
+  concerts: "Concerts",
   more: "More"
 };
 
-// ================= ACTIVE BUTTON =================
 function setActiveButton(section) {
   buttons.forEach(btn => {
     btn.classList.remove("active");
@@ -112,7 +98,6 @@ function setActiveButton(section) {
   });
 }
 
-// ================= CREATE CARD =================
 function createCard(item) {
   const card = document.createElement("div");
   card.className = "card";
@@ -135,7 +120,6 @@ function createCard(item) {
   return card;
 }
 
-// ================= CREATE ROW =================
 function createRow(title, items) {
   const row = document.createElement("div");
   row.className = "content-row";
@@ -186,8 +170,7 @@ function createRow(title, items) {
 
   return row;
 }
-
-// ================= HOME =================
+ 
 function renderHome(sourceData) {
   mainContent.innerHTML = "";
 
@@ -199,7 +182,6 @@ function renderHome(sourceData) {
   });
 }
 
-// ================= CATEGORY =================
 function renderCategory(section) {
   mainContent.innerHTML = "";
 
@@ -223,7 +205,6 @@ function renderCategory(section) {
   mainContent.appendChild(container);
 }
 
-// ================= SEARCH =================
 function handleSearch(query) {
   query = query.toLowerCase();
 
@@ -258,11 +239,9 @@ function handleSearch(query) {
   renderSearchResults(result);
 }
 
-// ================= SEARCH RESULTS =================
 function renderSearchResults(results) {
   mainContent.innerHTML = "";
 
-  // flatten all results into one array
   const allItems = Object.values(results).flat();
 
   const container = document.createElement("div");
@@ -279,7 +258,6 @@ function renderSearchResults(results) {
   mainContent.appendChild(container);
 }
 
-// ================= EVENTS =================
 searchInput?.addEventListener("input", e => {
   handleSearch(e.target.value);
 });
@@ -295,8 +273,7 @@ buttons.forEach(btn => {
     else renderCategory(section);
   });
 });
-
-// ================= MODAL =================
+ 
 function openModal(item) {
   modalTitle.textContent = item.title;
   modalLinks.innerHTML = "";
@@ -318,7 +295,6 @@ modal?.addEventListener("click", e => {
   if (e.target === modal) modal.classList.remove("active");
 });
 
-// ================= LOAD =================
 async function loadData() {
   try {
     const res = await fetch("../data/itzyflix.json");

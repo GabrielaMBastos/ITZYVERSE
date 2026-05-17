@@ -1,10 +1,7 @@
-/* =========================================
-   HAMBURGER
-========================================= */
+
 const hamburgerBtn = document.getElementById('hamburgerBtn');
 const mobileMenu   = document.getElementById('mobileMenu');
 
-// posiciona o menu abaixo da nav dinamicamente
 const navHeight = document.querySelector('.nav').offsetHeight;
 mobileMenu.style.top = navHeight + 'px';
 
@@ -35,7 +32,6 @@ if (hamburgerBtn && mobileMenu) {
   });
 }
 
-// Edite os links do lançamento aqui
 const latestRelease = {
   youtube:    'https://music.youtube.com/playlist?list=OLAK5uy_mO0yFE2vVjgSBANDdIzpZ1ZFnMg723cC4&si=pcqHpPoQwPvIh_4f',
   spotify:    'https://open.spotify.com/prerelease/2EXpnzqbnBM6boarTu9vQY?si=a2950906a04848d6',
@@ -50,7 +46,6 @@ function toggleStreamLinks() {
     return;
   }
 
-  // DESKTOP (comportamento antigo)
   const panel   = document.getElementById('streamPanel');
   const playBtn = document.getElementById('playBtn');
   const isOpen  = panel.classList.contains('open');
@@ -77,12 +72,10 @@ function closeSheet() {
 }
 
 function setLinks() {
-  // painel desktop
   document.getElementById('linkYoutube').href    = latestRelease.youtube;
   document.getElementById('linkSpotify').href    = latestRelease.spotify;
   document.getElementById('linkAppleMusic').href = latestRelease.appleMusic;
 
-  // sheet mobile
   document.getElementById('sheetYoutube').href = latestRelease.youtube;
   document.getElementById('sheetSpotify').href = latestRelease.spotify;
   document.getElementById('sheetApple').href   = latestRelease.appleMusic;

@@ -17,10 +17,10 @@ body {
 }
 
 .page-main {
-  flex: 1; /* cresce para preencher o espaço disponível */
+  flex: 1;
 }
 
-/* ===== NAV ===== */
+/*NAV*/
 .nav {
   display: flex;
   align-items: center;
@@ -70,7 +70,24 @@ body {
   display: none;
 }
 
-/* ===== PAGE HEADER ===== */
+.mobile-menu {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background: #0d0d0d;
+  border-bottom: 1px solid #1e1e1e;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.mobile-menu.open {
+  max-height: 300px;
+}
+
+/*PAGE HEADER*/
 .page-header {
   padding: 36px 40px 24px;
   border-bottom: 1px solid #1e1e1e;
@@ -106,7 +123,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== MEMBERS GRID (desktop) ===== */
+/*MEMBERS GRID */
 .members-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -185,7 +202,7 @@ body {
   letter-spacing: 1px;
 }
 
-/* ===== DETAIL PANEL ===== */
+/*DETAIL PANEL*/
 .detail-panel {
   background: #0f0f0f;
   border-top: 1px solid #1e1e1e;
@@ -365,7 +382,7 @@ body {
   color: #1db954;
 }
 
-/* ===== SELECT HINT ===== */
+/*SELECT HINT*/
 .select-hint {
   padding: 20px 40px 4em;
   font-size: 12px;
@@ -381,7 +398,7 @@ body {
   font-size: 14px;
 }
 
-/* ===== FOLLOW ROW ===== */
+/*FOLLOW*/
 .follow-row {
   display: flex;
   align-items: center;
@@ -421,7 +438,7 @@ body {
   color: #e83e8c;
 }
 
-/* ===== FOOTER ===== */
+/*FOOTER*/
 .flix-footer {
   padding: 20px;
   text-align: center;
@@ -434,9 +451,7 @@ body {
   text-decoration: none;
 }
 
-/* =========================================
-   CARROSSEL
-========================================= */
+/*CARROSSEL*/
 .members-grid.carousel-mode {
   display: flex;
   flex-direction: column;
@@ -462,7 +477,6 @@ body {
   transition: opacity 0.3s;
   margin-right: 12px;
 }
-/* offset lateral via margin no primeiro e último slide */
 .carousel-slide:first-child {
   margin-left: var(--co, 24px);
 }
@@ -573,11 +587,9 @@ body {
   transform: scale(1.4);
 }
 
-/* =========================================
-   RESPONSIVIDADE
-========================================= */
+/*RESPONSIVIDADE */
 
-/* ===== TABLET (769px–1024px) ===== */
+/*(769px–1024px)*/
 @media (min-width: 769px) and (max-width: 1024px) {
   .page-title {
     font-size: 36px;
@@ -610,7 +622,7 @@ body {
   }
 }
 
-/* ===== MOBILE (até 768px) ===== */
+/*(até 768px) */
 @media (max-width: 768px) {
   .nav {
     padding: 14px 20px;
@@ -759,7 +771,7 @@ body {
   }
 }
 
-/* ===== SMALL MOBILE (até 480px) ===== */
+/*(até 480px)*/
 @media (max-width: 480px) {
   .page-title {
     font-size: 22px;
@@ -775,7 +787,6 @@ body {
     height: 285px;
   }
 
-  /* detail panel empilhado e centralizado */
   .detail-panel {
     flex-direction: column;
     align-items: center;
@@ -818,20 +829,3 @@ body {
   }
 }
 
-/* Mobile menu fixo na tela */
-.mobile-menu {
-  position: fixed;
-  top: 53px; /* altura da nav */
-  left: 0;
-  right: 0;
-  z-index: 99;
-  background: #0d0d0d;
-  border-bottom: 1px solid #1e1e1e;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.mobile-menu.open {
-  max-height: 300px;
-}

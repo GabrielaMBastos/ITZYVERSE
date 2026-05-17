@@ -4,6 +4,11 @@
   padding: 0;
 }
 
+html {
+  background: #0d0d0d;
+  overscroll-behavior: none;
+}
+
 body {
   background: #0d0d0d;
   color: #fff;
@@ -15,9 +20,10 @@ body {
 }
 
 .page-main {
-  flex: 1; /* cresce para preencher o espaço disponível */
+  flex: 1;
 }
 
+/*NAV*/
 .nav {
   display: flex;
   align-items: center;
@@ -60,6 +66,14 @@ body {
 }
 .mobile-menu {
   display: none;
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 53px;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 
 /*HERO*/
@@ -123,7 +137,7 @@ body {
   max-width: 350px;
 }
 
-/* LATEST STRIP CONTAINER */
+/*LATEST STRIP*/
 .latest-strip {
   display: flex;
   align-items: center;
@@ -390,7 +404,7 @@ body {
   text-decoration: none;
 }
 
-/* ===== BOTTOM SHEET ===== */
+/*BOTTOM SHEET*/
 .bottom-sheet {
   position: fixed;
   inset: 0;
@@ -458,7 +472,6 @@ body {
   font-size: 16px;
 }
 
-/* OPEN STATE */
 .bottom-sheet.open {
   pointer-events: all;
 }
@@ -471,31 +484,20 @@ body {
   transform: translateY(0);
 }
 
-/* menu sempre fixo quando visível */
-.mobile-menu {
-  position: fixed;
-  top: 53px;
-  left: 0;
-  right: 0;
-  z-index: 99;
-}
+/*RESPONSIVIDADE */
 
-/* =========================================
-   RESPONSIVIDADE
-========================================= */
-
-/* ===== TABLET (até 1024px) ===== */
+/*(até 1024px)*/
 @media (max-width: 1024px) {
   .hero-title {
     font-size: 60px;
   }
 
   .explore-grid {
-    grid-template-columns: repeat(2, 1fr); /* era repeat(3, 1fr) */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* ===== MOBILE (até 768px) ===== */
+/*(até 768px)*/
 @media (max-width: 768px) {
   /* GLOBAL */
   body,
@@ -529,8 +531,8 @@ body {
   .mobile-menu {
     display: flex;
     flex-direction: column;
-    position: fixed; /* fixo na tela */
-    top: 53px; /* fallback — JS sobrescreve com valor real */
+    position: fixed; 
+    top: 53px;
     left: 0;
     right: 0;
     z-index: 99;
@@ -595,7 +597,6 @@ body {
   }
 
   /* FOLLOW */
-
   .follow-row {
     flex-direction: column;
     align-items: flex-start;
@@ -608,7 +609,7 @@ body {
   }
 
   .social-link {
-    font-size: 0; /* esconde o texto */
+    font-size: 0;
   }
 
   .social-link i {
@@ -620,7 +621,7 @@ body {
   }
 }
 
-/* ===== SMALL MOBILE (até 480px) ===== */
+/*(até 480px)*/
 @media (max-width: 480px) {
   .hero-title {
     font-size: 34px;

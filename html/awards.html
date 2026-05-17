@@ -12,7 +12,7 @@
 </head>
 <body>
 
-  <!-- NAV -->
+  
     <nav class="nav">
       <a href="/index.html" class="logo">★ ITZYVERSE<span>.</span></a>
 
@@ -39,7 +39,7 @@
 
   <main class="page-main">
 
-    <!-- PAGE HEADER -->
+    
     <div class="page-header">
       <div class="eyebrow">ACHIEVEMENTS</div>
       <div class="page-title">AWARDS &amp; <span>WINS</span></div>
@@ -49,39 +49,40 @@
       </div>
     </div>
 
-    <!-- MAIN TABS -->
     <div class="main-tabs">
-      <button class="mtab active" data-tab="group">GROUP AWARDS</button>
-      <button class="mtab" data-tab="shows">MUSIC SHOW WINS</button>
-      <button class="mtab" data-tab="solo">SOLO AWARDS</button>
-    </div>
+  <button class="mtab active" data-tab="group">
+    <span class="tab-full">GROUP AWARDS</span>
+    <span class="tab-short">GROUP AWARDS</span>
+  </button>
+  <button class="mtab" data-tab="shows">
+    <span class="tab-full">MUSIC SHOW WINS</span>
+    <span class="tab-short">MUSIC SHOWS</span>
+  </button>
+  <button class="mtab" data-tab="solo">
+    <span class="tab-full">SOLO AWARDS</span>
+    <span class="tab-short">SOLO</span>
+  </button>
+</div>
 
-    <!-- ── GROUP AWARDS TAB ── -->
-    <!-- ── GROUP AWARDS TAB ── -->
     <div class="tab-content visible" id="tab-group">
       <select class="year-filter-select" id="yearFilterSelect"></select>
       <div class="year-filter" id="yearFilter"></div>
       <div id="groupGrid"></div>
     </div>
 
-    <!-- ── MUSIC SHOW WINS TAB ── -->
     <div class="tab-content" id="tab-shows">
       <div class="show-summary">
         <div class="show-total" id="showTotal">—</div>
         <div class="show-total-label">total music show wins</div>
       </div>
       <div class="wins-grid" id="winsGrid">
-        <!-- Cards gerados pelo JS -->
       </div>
     </div>
 
-    <!-- ── SOLO AWARDS TAB ── -->
     <div class="tab-content" id="tab-solo">
       <div class="solo-tabs" id="soloTabs">
-        <!-- Tabs geradas pelo JS -->
       </div>
       <div id="soloGrid">
-        <!-- Cards gerados pelo JS -->
       </div>
     </div>
   </main>
