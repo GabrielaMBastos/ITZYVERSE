@@ -560,7 +560,7 @@ body {
   }
 
   .hero-content {
-    padding: 0 20px 30px;
+    padding: 0 20px 0px;
     max-width: 100%;
   }
 
@@ -576,6 +576,8 @@ body {
   .hero-desc {
     font-size: 11px;
     max-width: 100%;
+    margin-bottom: 15px;
+
   }
 
   /* LATEST STRIP */

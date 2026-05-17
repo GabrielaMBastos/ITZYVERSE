@@ -100,8 +100,8 @@
   ],
 
   "webContent": [
-    { "img": "../assets/itzyflix/itzy-korea.jpg", "title": "ITZY Korea", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNacmT549s23el9EO_xRlG2SU" },
-    { "img": "../assets/itzyflix/paris-itzy.jpg", "title": "Paris ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejWn3ZtKgIAmnShMahsX10" },
+    { "img": "../assets/itzyflix/itzy-in-korea.jpg", "title": "ITZY Korea", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNacmT549s23el9EO_xRlG2SU" },
+    { "img": "../assets/itzyflix/paris-et-itzy.jpg", "title": "Paris ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaejWn3ZtKgIAmnShMahsX10" },
     { "img": "../assets/itzyflix/la-itzy.jpg", "title": "LA ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNadaSvC1g7dRD_1kwTkO6Hjq" },
     { "img": "../assets/itzyflix/cozy-house.jpg", "title": "Cozy House", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNafiJt3VTAWnFG9pQ6dLMzXC" },
     { "img": "../assets/itzyflix/my-favorite-itzy.jpg", "title": "My Favorite ITZY", "url": "https://youtube.com/playlist?list=PLbgZ_XL7QNaf09WuOkAYvGrO2H4V4VUUX" },
