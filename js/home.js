@@ -35,7 +35,7 @@ if (hamburgerBtn && mobileMenu) {
 const latestRelease = {
   youtube:    'https://music.youtube.com/playlist?list=OLAK5uy_mO0yFE2vVjgSBANDdIzpZ1ZFnMg723cC4&si=pcqHpPoQwPvIh_4f',
   spotify:    'https://open.spotify.com/prerelease/2EXpnzqbnBM6boarTu9vQY?si=a2950906a04848d6',
-  appleMusic: '#',
+  appleMusic: 'https://music.apple.com/kr/album/motto/1893554643',
 };
 
 function toggleStreamLinks() {
